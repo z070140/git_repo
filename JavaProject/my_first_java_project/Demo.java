@@ -1,3 +1,5 @@
+package my_first_java_project;
+
 public class Demo {
     public static void main(String[] args) {
         //double d;
