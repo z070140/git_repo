@@ -40,6 +40,7 @@
             width: 100%;
             height: 25%;
             vertical-align: top;
+
         }
     </style>
     <title>header</title>
@@ -47,8 +48,9 @@
 <body>
 <div id="header">
     <div class="circleleft"></div>
-    <h1>导航栏</h1>
+    <h1 style="width:30%;display:inline-block">导航栏</h1>
     <div class="circleright"></div>
 </div>
+
 </body>
 </html>
