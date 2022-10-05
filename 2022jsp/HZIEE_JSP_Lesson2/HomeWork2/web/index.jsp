@@ -11,6 +11,9 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <%@include file="header.jsp"%>
+  <%@include file="left.jsp"%>
+  <%@include file="main.jsp"%>
+
   </body>
 </html>

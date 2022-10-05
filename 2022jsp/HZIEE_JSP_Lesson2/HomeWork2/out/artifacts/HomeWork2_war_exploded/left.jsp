@@ -13,19 +13,20 @@
 
     <style>
         #nav {
-            line-height:30px;
+            /*line-height:30px;*/
             background-color:#eeeeee;
-            margin-top: 20%;
-            height:80%;
+            /*margin-top: 25%;*/
+            height:90%;
             width:25%;
             float:left;
-            padding:5px;
+            /*padding:5px;*/
         }
     </style>
 </head>
 <body>
 <div id="nav">
-    <h2>菜单</h2>
+<%--    <h2>菜单</h2>--%>
+    <h1>菜单</h1>
 </div>
 
 </body>

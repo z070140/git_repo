@@ -15,10 +15,10 @@
             background-color: #b1edb5;
             width:75%;
             float:left;
-            height: 80%;
-            margin-top: 20%;
+            height: 90%;
+            /*margin-top: 25%;*/
 
-            margin-left: 25%;
+            /*margin-left: 25%;*/
 
         }
     </style>
@@ -26,7 +26,8 @@
 </head>
 <body>
 <div id="section">
-    <h2>主内容区</h2>
+<%--    <h2>主内容区</h2>--%>
+    <h1>主内容区</h1>
 </div>
 
 </body>
