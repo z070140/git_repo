@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c786a18c-c424-43cb-b3b3-ac727c18ca03" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/JspLesson2/JspLesson2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/JspLesson2/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/JspLesson2/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/WEB-INF/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/WEB-INF/stuAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/array.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/botton.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/checklogin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/ok.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/student.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/time.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebProject/.idea/WebProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebProject/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2022jsp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022jsp/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022jsp/Lesson2/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaProject/hello/src/BasicJavaExam/Lesson6Exam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/hello/src/BasicJavaExam/Lesson6Exam2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022jsp/HZIEE_JSP_Lesson2/HomeWork2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022jsp/HZIEE_JSP_Lesson2/HomeWork2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022jsp/HZIEE_JSP_Lesson2/HomeWork2/out/artifacts/HomeWork2_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022jsp/HZIEE_JSP_Lesson2/HomeWork2/out/artifacts/HomeWork2_war_exploded/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022jsp/HZIEE_JSP_Lesson2/HomeWork2/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022jsp/HZIEE_JSP_Lesson2/HomeWork2/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProject/hello/src/BasicJavaExam/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/hello/src/BasicJavaExam/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +25,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/git_repo/JspTeacherCode/Lesson2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/git_repo/JspTeacherCode/Lesson2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -62,6 +43,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664338641746</updated>
       <workItem from="1664338642983" duration="28000" />
+      <workItem from="1665224575585" duration="32000" />
+      <workItem from="1665224622162" duration="86000" />
     </task>
     <servers />
   </component>

@@ -11,8 +11,8 @@
     <style>
         .circleleft {
             margin-top: 1%;
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 50px;
             background-color: green;
             border-radius: 50%;
             display: inline-block;
@@ -23,8 +23,8 @@
 
         .circleright {
             margin-top: 1%;
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 50px;
             background-color: green;
             border-radius: 50%;
             display: inline-block;
@@ -50,7 +50,7 @@
 <body>
 <div id="header">
     <div class="circleleft"></div>
-    <h1 style="width:30%;display:inline-block;margin-top: 2%;padding: 10px">导航条</h1>
+    <h1 style="width:30%;display:inline-block;margin-top: 1%;padding: 10px">导航条</h1>
     <div class="circleright"></div>
 </div>
 
