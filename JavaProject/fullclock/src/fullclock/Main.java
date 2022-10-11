@@ -39,23 +39,27 @@ class Display {
 }
 
 class Clock {
-    private int myhour = 0;
-    private int myminute = 0;
-    private int mysecond = 0;
-//    private Display hour = new Display(this.myhour);
-//    private Display minute = new Display(this.myminute);
-//    private Display second = new Display(this.mysecond);
+    private int myhour;
+    private int myminute;
+    private int mysecond;
+    private Display hour;
+    private Display minute;
+    private Display second;
 
     public Clock(int hour, int minute, int second) {
 	this.myhour = hour;
 	this.myminute = minute;
 	this.mysecond = second;
 
+	this.hour = new Display(this.myhour);
+	this.minute = new Display(this.myminute);
+	this.second = new Display(this.mysecond);
+
     }
 
-    private Display hour = new Display(24);
-    private Display minute = new Display(60);
-    private Display second = new Display(60);
+    // private Display hour = new Display(24);
+    // private Display minute = new Display(60);
+    // private Display second = new Display(60);
 
     public void tick() {
 
