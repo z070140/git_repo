@@ -17,7 +17,9 @@ public class Que_26 {
 			}
 			++fast;
 		}
-		
+		for (int i=0;i<slow;i++){
+			System.out.println(nums[i]);
+		}
 		//System.out.println(Arrays.toString(nums));
 	}
 
