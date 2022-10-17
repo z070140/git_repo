@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.nio.charset.StandardCharsets" %><%--
   Created by IntelliJ IDEA.
   User: z0701
   Date: 2022/10/12
@@ -18,15 +18,16 @@
     //request.setCharacterEncoding("UTF-8");
     String userName1 = request.getParameter("userName");
 //    //方法2：乱码处理，放在接收数据的后面
-    byte[] b = userName1.getBytes("ISO-8859-1");
-    String userName1Str = new String(b, "UTF-8");
-    String pwd1 = request.getParameter("pwd");
-//    String userName1 = request.getParameter("userName");
+//    byte[] b = userName1.getBytes("ISO-8859-1");
+//    String userName1Str = new String(b, "UTF-8");
 //    String pwd1 = request.getParameter("pwd");
+//
+//    String userName1 = request.getParameter("userName");
+    String pwd1 = request.getParameter("pwd");
 
 %>
 <%
-    if ("admin".equals(userName1) && "123".equals(pwd1)) {
+    if ("用户名".equals(userName1) && "123".equals(pwd1)) {
         response.sendRedirect("admin.jsp");
     } else {
         // response.sendRedirect("index.jsp");
@@ -36,7 +37,7 @@
 <%
     }
 %>
-<%--<%=userName1Str%><br>--%>
-<%--<%=pwd1%><br>--%>
+<br>
+<%=pwd1%><br>
 </body>
 </html>
