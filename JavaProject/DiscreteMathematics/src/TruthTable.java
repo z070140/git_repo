@@ -10,7 +10,7 @@ public class TruthTable {
 	char c = 'A';
 	int result, p, q, r, s;
 	System.out.println("构造命题公式真值表");
-	System.out.println("命题公式A:非(p析取q)合取((p析取r)析取s)");
+	System.out.println("命题公式A:﹁(pvq)^((pvr)vs)");
 	while (true) {
 	    System.out.print("请输入命题公式(默认为A):");
 	    sString = in.nextLine();
@@ -84,7 +84,7 @@ public class TruthTable {
 
 		    break;
 		} else if (n == 2) {
-		    truthTable_2(n);
+		    truthTable();
 		    break;
 		} else {
 		    System.out.println("输入信息有误,请重新输入");
@@ -95,8 +95,34 @@ public class TruthTable {
 	}
     }
 
-    public static void truthTable_2(int n) {
+    public static void truthTable() {
+	int p, q, r, s;
+	System.out.print("p  ");
+	System.out.print("q  ");
+	System.out.print("r  ");
+	System.out.print("s  ");
+	System.out.print("(pvr)  ");
+	System.out.print("(pvr)vs  ");
+	System.out.print("(pvq)  ");
+	System.out.print("﹁(pvq)  ");
+	System.out.println("﹁(pvq)^((pvr)vs)");
+	for (p = 0; p <= 1; p++) {
+	    for (q = 0; q <= 1; q++) {
+		for (r = 0; r <= 1; r++) {
+		    for (s = 0; s <= 1; s++) {
+			System.out.print(p + "  " + q + "  " + r + "  " + s
+				+ "    " + (p | r) + "      " + ((p | r) | s)
+				+ "        " + (p | q) + "       ");
+			int test = p | q;
+			boolean fouding = (test == 0) ? true : false;
+			int temp = fouding ? 1 : 0;
+			System.out.print(temp + "           "
+				+ (temp & (((p | r) | s))) + "\n");
+		    }
+		}
+	    }
 
-	System.out.println("完整真值表还在制作中，请稍后再试。");
+	}
+
     }
 }

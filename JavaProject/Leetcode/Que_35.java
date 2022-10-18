@@ -23,7 +23,6 @@ public class Que_35 {
             }
 
         }
-
         return 0;
     }
 
