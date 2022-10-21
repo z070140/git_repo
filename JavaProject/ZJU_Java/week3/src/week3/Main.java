@@ -25,11 +25,10 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String s = new String();
         int cnt = 0;
-        s = in.next();
+        String s = in.next();
         citymap c = new citymap();
-        while (s.equals("###") != true) {
+        while (!s.equals("###")) {
             c.setCityid(s, cnt++);
             s = in.next();
         }
@@ -41,10 +40,10 @@ public class Main {
             }
         }
 
-        String sstart = in.next();
+        String start = in.next();
         String send = in.next();
 
-        System.out.println(dis[c.getId(sstart)][c.getId(send)]);
+        System.out.println(dis[c.getId(start)][c.getId(send)]);
         in.close();
 
     }
