@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b8ceff3-198a-4e07-88e3-a6d8d89ea7a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/Lessom8/GUITest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/Lessom8/GUITest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/Lessom8/GUITest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/Lessom8/GUITest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/Lessom8/GUITest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/Lessom8/GUITest/GUITest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/Lessom8/GUITest/src/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/.idea/Outer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/src/Circle/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/src/Outer/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/src/Rectangle/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/HZIEE_Java/test/Outer/src/Square/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/.idea/Shapes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/Shapes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/MyPic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/Picture$ShapesPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/Picture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/out/production/Shapes/shapes/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/src/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/src/shapes/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/src/shapes/MyPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/src/shapes/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/src/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/src/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/Shapes/src/shapes/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/HandlerBye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/HandlerGo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/HandlerHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/cells.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/out/production/cells/cell/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/out/production/cells/cellmachine/CellMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/out/production/cells/field/Field.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/out/production/cells/field/View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/src/cell/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/src/cellmachine/CellMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/src/field/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/cells/src/field/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/exception/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/exception/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/exception/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/exception/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/exception/exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/FinalWork/.idea/FinalWork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/ZJU_Java/ dome/out/production/dome/META-INF/dome.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/ZJU_Java/ dome/src/dome/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/ dome/src/dome/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/ZJU_Java/ dome/src/dome/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/ dome/src/dome/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/out/production/castle/castle/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/out/production/castle/castle/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/out/production/castle/castle/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/out/production/castle/castle/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProject/ZJU_Java/castle/src/castle/Room.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2GbtCUpXcc5iOeO2gRGevXIuZsB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b8ceff3-198a-4e07-88e3-a6d8d89ea7a1" name="Default Changelist" comment="" />
+      <created>1666668983597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666668983597</updated>
+      <workItem from="1666668986686" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1666669006476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.-242.1707.1027@0.0.1920.1040" timestamp="1666669006476" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1666668986640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-242.1707.1027@0.0.1920.1040" timestamp="1666668986640" />
+    <state x="334" y="130" key="new project wizard" timestamp="1666669008177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040/1920.-242.1707.1027@0.0.1920.1040" timestamp="1666669008177" />
+  </component>
+</project>

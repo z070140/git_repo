@@ -33,6 +33,8 @@ public class Database {
     }
 
     public static void main(String[] args) {
+
+
 	Database db = new Database();
 	db.add(new CD("abc", "abc", 4, 60, "..."));
 	db.add(new CD("def", "def", 4, 60, "..."));
