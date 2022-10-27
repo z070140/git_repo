@@ -40,7 +40,7 @@ public class DiscretizationName {
         plot.setRenderer(renderer);                                         //设置主数据集的渲染器
 
         ChartFrame frame = new ChartFrame("x(t)=-2*t*sin(t^2)", chart);
-        frame.pack(); // fit window to figure size
+        frame.pack();
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

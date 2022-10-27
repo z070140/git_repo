@@ -1,0 +1,92 @@
+#header_img {
+    width: 100%;
+}
+
+#title_h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.title_h3 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+#History_img {
+    width: 30%;
+    margin-left: 15%;
+}
+
+#HistoryOfTrees_img {
+    width: 30%;
+    margin-left: 10%;
+}
+
+.History_link {
+    display: inline-block;
+    margin-left: 23%;
+    font-size: 2vw;
+
+}
+
+.History_link a {
+    text-decoration: none;
+    color: black;
+}
+
+.History_link a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.History_link a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+.HistoryOfTrees_link {
+    display: inline-block;
+    margin-left: 29%;
+    font-size: 2vw;
+}
+
+.HistoryOfTrees_link a {
+    text-decoration: none;
+    color: black;
+}
+
+.HistoryOfTrees_link a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.HistoryOfTrees_link a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+#HistoryOfTrees_link {
+    margin-left: 29%;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+
+
+#SantaClaus_img {
+    width: 30%;
+    margin-left: 15%;
+}
+
+#TraditionsWorldwide_img {
+    width: 30%;
+    margin-left: 10%;
+}
+
+#link-item {
+    margin-left: 15%;
+    border-top: solid black 1px;
+    width: 70%;
+    height: 10%;
+    margin-top: 1%;
+}
