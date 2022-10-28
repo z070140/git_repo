@@ -12,81 +12,117 @@
     text-align: center;
 }
 
-#History_img {
+.Christmas_left_link {
+    display: inline-block;
+    margin-left: 15%;
+    width: 30%;
+    text-align: center;
+    font-size: 2vw;
+}
+.Christmas_left_link a {
+    text-decoration: none;
+    color: black;
+}
+
+.Christmas_left_link a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.Christmas_left_link a:visited {
+    text-decoration: none;
+    color: purple;
+}
+
+.Christmas_right_link {
+    display: inline-block;
+    margin-left: 10%;
+    width: 30%;
+    text-align: center;
+    font-size: 2vw;
+}
+.Christmas_right_link a {
+    text-decoration: none;
+    color: black;
+}
+
+.Christmas_right_link a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.Christmas_right_link a:visited {
+    text-decoration: none;
+    color: purple;
+}
+
+.left_img{
     width: 30%;
     margin-left: 15%;
 }
 
-#HistoryOfTrees_img {
+.right_img{
     width: 30%;
     margin-left: 10%;
 }
 
-.History_link {
-    display: inline-block;
-    margin-left: 23%;
-    font-size: 2vw;
-
-}
-
-.History_link a {
-    text-decoration: none;
-    color: black;
-}
-
-.History_link a:hover {
-    text-decoration: none;
-    color: red;
-}
-
-.History_link a:visited {
-    text-decoration: none;
-    color: red;
-}
-
-.HistoryOfTrees_link {
-    display: inline-block;
-    margin-left: 29%;
-    font-size: 2vw;
-}
-
-.HistoryOfTrees_link a {
-    text-decoration: none;
-    color: black;
-}
-
-.HistoryOfTrees_link a:hover {
-    text-decoration: none;
-    color: red;
-}
-
-.HistoryOfTrees_link a:visited {
-    text-decoration: none;
-    color: red;
-}
-
-#HistoryOfTrees_link {
-    margin-left: 29%;
-    text-decoration: none;
-    color: black;
-    font-size: 2vw;
-}
-
-
-#SantaClaus_img {
-    width: 30%;
-    margin-left: 15%;
-}
-
-#TraditionsWorldwide_img {
-    width: 30%;
-    margin-left: 10%;
-}
-
-#link-item {
+.link-item {
     margin-left: 15%;
     border-top: solid black 1px;
     width: 70%;
     height: 10%;
     margin-top: 1%;
+}
+
+.title{
+    font-size: 3vw;
+    margin-left: 15%;
+}
+
+#Christmas_eve_img{
+    margin-left: 15%;
+    width: 70%;
+}
+
+.Christmas_eve_link{
+    display: inline-block;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.Christmas_eve_link a{
+    text-decoration: none;
+    color: black;
+}
+
+.Christmas_eve_link a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.Christmas_eve_link a:visited{
+    text-decoration: none;
+    color: purple;
+}
+
+.bottom{
+    display: block;
+    margin-left: 15%;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.bottom a:visited{
+    text-decoration: none;
+    color: purple;
 }
