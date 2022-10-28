@@ -3,6 +3,12 @@
    font-size: 3vw;
 }
 
+
+#title_h2{
+   margin-left: 15%;
+   font-size: 3vw;
+}
+
 .title{
    margin-left: 15%;
    font-size: 2vw;
@@ -55,6 +61,50 @@
 .right_img{
    width: 30%;
    margin-left: 10%;
+}
+
+.History_left_link {
+   display: inline-block;
+   margin-left: 15%;
+   width: 30%;
+   text-align: center;
+   font-size: 2vw;
+}
+.History_left_link a {
+   text-decoration: none;
+   color: black;
+}
+
+.History_left_link a:hover {
+   text-decoration: none;
+   color: red;
+}
+
+.History_left_link a:visited {
+   text-decoration: none;
+   color: purple;
+}
+
+.History_right_link {
+   display: inline-block;
+   margin-left: 10%;
+   width: 30%;
+   text-align: center;
+   font-size: 2vw;
+}
+.History_right_link a {
+   text-decoration: none;
+   color: black;
+}
+
+.History_right_link a:hover {
+   text-decoration: none;
+   color: red;
+}
+
+.History_right_link a:visited {
+   text-decoration: none;
+   color: purple;
 }
 
 .link-item {
