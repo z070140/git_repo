@@ -1,0 +1,129 @@
+#header_img {
+    width: 100%;
+}
+
+#title_h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.title_h3 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.Christmas_eve_left_link {
+    display: inline-block;
+    margin-left: 15%;
+    width: 30%;
+    text-align: center;
+    font-size: 2vw;
+}
+.Christmas_eve_left_link a {
+    text-decoration: none;
+    color: black;
+}
+
+.Christmas_eve_left_link a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.Christmas_eve_left_link a:visited {
+    text-decoration: none;
+    color: purple;
+}
+
+.Christmas_eve_right_link {
+    display: inline-block;
+    margin-left: 10%;
+    width: 30%;
+    text-align: center;
+    font-size: 2vw;
+}
+.Christmas_eve_right_link a {
+    text-decoration: none;
+    color: black;
+}
+
+.Christmas_eve_right_link a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.Christmas_eve_right_link a:visited {
+    text-decoration: none;
+    color: purple;
+}
+
+.left_img{
+    width: 30%;
+    margin-left: 15%;
+}
+
+.right_img{
+    width: 30%;
+    margin-left: 10%;
+}
+
+.link-item {
+    margin-left: 15%;
+    border-top: solid black 1px;
+    width: 70%;
+    height: 10%;
+    margin-top: 1%;
+}
+
+.title{
+
+    font-size: 3vw;
+    margin-left: 15%;
+}
+
+#Christmas_img{
+    margin-left: 15%;
+    width: 70%;
+}
+
+.Christmas_link{
+    display: inline-block;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.Christmas_eve_link a{
+    text-decoration: none;
+    color: black;
+}
+
+.Christmas_eve_link a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.Christmas_eve_link a:visited{
+    text-decoration: none;
+    color: purple;
+}
+
+.bottom{
+    display: block;
+    margin-left: 15%;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.bottom a:visited{
+    text-decoration: none;
+    color: purple;
+}
