@@ -13,13 +13,68 @@
 <h2 class="title">歌曲</h2>
 <div class="contents">
     <ul>
-        <li>1.Jingle Bells</li>
-        <li>2.Jingle Bell Rock</li>
-        <li>3.Last Christmas</li>
-        <li>4.Lonely Christmas</li>
-        <li>5.We Wish You A Merry Christmas</li>
-        <li>6.圣诞结</li>
+        <li>1.Jingle Bells-Bobby Helms</li>
+        <li>2.Jingle Bell Rock-Children's Christmas Favorites</li>
+        <li>3.Last Christmas-Taylor Swift</li>
+        <li>4.Lonely Christmas-陈奕迅</li>
+        <li>5.We Wish You A Merry Christmas-T.R.Y</li>
+        <li>6.圣诞结-陈奕迅</li>
     </ul>
+
+    <link rel="stylesheet" href="../../css/Christmas/APlayer.min.css">
+    <script src="../../js/Christmas/APlayer.min.js"></script>
+
+    <div id='aplayer' style="width: 30%;height: 100%;margin-left: 11%"></div>
+    <script>
+        const ap = new APlayer
+        ({
+            element: document.getElementById('aplayer'),
+            mini: false,
+            autoplay: true,
+            theme: '#FADFA3',
+            loop: 'all',
+            order: 'list',
+            preload: 'auto',
+            volume: 0.5,
+            mutex: true,
+            listFolded: false,
+            // listMaxHeight: 90,
+            audio: [{
+                title: 'Jingle Bells',
+                author: 'Children\'s Christmas Favorites',
+                url: '../../static/songs/Christmas/Jingle Bells.mp3',
+                pic: 'https://y.qq.com/music/photo_new/T002R300x300M000000Ld6LI0Pr4j3_2.jpg?max_age=2592000'
+            },{
+                title: 'Jingle Bell Rock',
+                author: 'Bobby Helms',
+                url: '../../static/songs/Christmas/Jingle Bell Rock.mp3',
+                pic: 'https://y.qq.com/music/photo_new/T002R300x300M000000T0wZc3eMBiI_2.jpg?max_age=2592000'
+            },{
+                title: 'Last Christmas',
+                author: 'Taylor Swift',
+                url: '../../static/songs/Christmas/Last Christmas.mp3',
+                pic: 'https://y.qq.com/music/photo_new/T002R300x300M000003HzOs42qqiQm_1.jpg?max_age=2592000'
+            },{
+                title: 'Lonely Christmas',
+                author: '陈奕迅',
+                url: '../../static/songs/Christmas/Lonely Christmas.mp3',
+                pic: 'https://y.qq.com/music/photo_new/T002R300x300M0000041nJMw4J6S1o_1.jpg?max_age=2592000'
+            },{
+                title: 'We Wish You A Merry Christmas',
+                author: 'T.R.Y',
+                url: '../../static/songs/Christmas/We Wish You A Merry Christmas.mp3',
+                pic: 'https://y.qq.com/music/photo_new/T002R300x300M000004TRo3n0ZaquN_1.jpg?max_age=2592000'
+            },{
+                title: '圣诞结',
+                author: '陈奕迅',
+                url: '../../static/songs/Christmas/圣诞结.mp3',
+                pic: 'https://y.qq.com/music/photo_new/T002R300x300M000003Z5p2o40ZnnR_1.jpg?max_age=2592000'
+            }]
+        });
+        ap.init();
+    </script>
+
+
 
 </div>
 
@@ -63,4 +118,5 @@
 
 </div>
 </body>
+
 </html>

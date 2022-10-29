@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="node_modules/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+
+<link rel="stylesheet" href="APlayer.min.css">
+<script src="APlayer.min.js"></script>
+
+<div id='aplayer'></div>
+
+<script>
+    var ap = new APlayer
+    ({
+        element: document.getElementById('aplayer'),
+        showlrc: false,
+        fixed: true,
+        mini: true,
+        audio: {
+            title: 'Last Christmas',
+            author: '周杰伦',
+            url: 'Last Christmas.mp3',
+            pic: 'https://echeverra.cn/wp-content/uploads/2022/05/周杰伦-半岛铁盒-mp3-image.png'
+        }
+    });
+    ap.init();
+</script>
+
+
+</body>
+</html>
