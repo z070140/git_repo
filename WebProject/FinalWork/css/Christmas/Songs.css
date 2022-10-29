@@ -21,6 +21,7 @@
 .contents{
     display: flex;
     margin-left: 12.5%;
+    /*max-width: 70%;*/
 }
 
 .contents ul{
