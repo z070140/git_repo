@@ -11,6 +11,8 @@
 <img id="bottom_img" src="../../static/images/Christmas/History/header.webp">
 <h1 id="title_h1">圣诞节的历史</h1>
 <h2 class="title">目录</h2>
+<div id="home"><a  href="#bottom_img"><img src="../../static/images/ChristmasEve/History/home.png">回到顶部</a></div>
+<div id="index"><a  href="../Christmas/index.html" ><img src="../../static/images/ChristmasEve/History/index.jpg">返回首页</a></div>
 <div class="contents">
     <ul>
 
@@ -87,5 +89,19 @@
             href="https://www.bilibili.com" target="_blank">哔哩哔哩</a></p>
 
 </div>
+
+<script type="text/javascript">
+    var oDiv = document.getElementById('home');
+    window.onscroll = function() {
+        oDiv.style.display = 'block';
+        var height = document.documentElement.scrollTop || document.body.scrollTop;
+        var browserheight = window.innerHeight;
+        console.log(height);
+        if(height <browserheight*0.8) {
+            oDiv.style.display = 'none';
+        }
+    }
+
+</script>
 </body>
 </html>

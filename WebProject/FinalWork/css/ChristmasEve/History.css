@@ -1,65 +1,107 @@
-#title_h1{
+#title_h1 {
     margin-left: 15%;
     font-size: 3vw;
 }
 
 
-#title_h2{
+#title_h2 {
     margin-left: 15%;
     font-size: 3vw;
 }
 
-.title{
+#home {
+    text-align: center;
+    position: fixed;
+    width: 5%;
+    bottom: 15%;
+    z-index: 1000;
+    right: 0.45%;
+    display: none;
+    background: #f4f4f5;
+}
+
+#home a{
+    text-decoration: none;
+    color: black;
+}
+
+#home img {
+    width: 100%;
+    height: 90%;
+}
+#index{
+    text-align: center;
+    position: fixed;
+    width: 5%;
+    bottom: 1%;
+    z-index: 1000;
+    right: 0.45%;
+    display: inline-block;
+    background: #f4f4f5;
+}
+
+#index a{
+    text-decoration: none;
+    color: black;
+}
+
+#index img {
+    width: 100%;
+    height: 90%;
+}
+
+.title {
     margin-left: 15%;
     font-size: 2vw;
+
 }
 
-#bottom_img{
+#bottom_img {
     width: 100%;
 }
 
-.contents{
+.contents {
     display: flex;
     margin-left: 12.5%;
 }
 
-.contents ul{
+.contents ul {
     width: 35%;
     list-style-type: none;
 }
 
-.contents li{
+.contents li {
     font-size: 1.5vw;
 }
 
-.contents a{
+.contents a {
     color: red;
 }
 
-.contents a:hover{
+.contents a:hover {
     text-decoration: none;
 }
 
-.contents p{
+.contents p {
     margin-left: 5%;
     margin-top: 1%;
     width: 35%;
     font-size: 1.5vw;
 }
 
-.body_text{
+.body_text {
     margin-left: 15%;
     margin-top: 0;
     width: 70%;
     font-size: 1.5vw;
 }
 
-.left_img{
+.left_img {
     width: 30%;
     margin-left: 15%;
 }
 
-.right_img{
+.right_img {
     width: 30%;
     margin-left: 10%;
 }
@@ -71,6 +113,7 @@
     text-align: center;
     font-size: 2vw;
 }
+
 .History_left_link a {
     text-decoration: none;
     color: black;
@@ -93,6 +136,7 @@
     text-align: center;
     font-size: 2vw;
 }
+
 .History_right_link a {
     text-decoration: none;
     color: black;
@@ -116,36 +160,38 @@
     margin-top: 1%;
 }
 
-.bottom{
+.bottom {
     display: block;
     margin-left: 15%;
 }
 
-.bottom a{
+.bottom a {
     text-decoration: none;
     color: black;
 }
 
-.bottom a:hover{
+.bottom a:hover {
     text-decoration: none;
     color: red;
 }
 
-.bottom a:visited{
+.bottom a:visited {
     text-decoration: none;
     color: purple;
 }
 
-.body_text_with_img{
+.body_text_with_img {
     display: flex;
     margin-left: 15%;
     width: 70%;
 }
-.body_text_with_img img{
+
+.body_text_with_img img {
     width: 30%;
 }
-.body_text_with_img p{
+
+.body_text_with_img p {
     margin-left: 5%;
-    margin-top:  0;
+    margin-top: 0;
     font-size: 1.5vw;
 }

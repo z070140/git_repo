@@ -1,10 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+<link rel="stylesheet" href="test.css">
 </head>
 <body>
-$END$
+
+
+
+<div style="padding-bottom:2000px;display: inline-block;margin-left: 5%">
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+    <p>滚动我</p>
+    <p>来回滚动我</p>
+</div>
+
+<div id="home1"><a href="#"><img src="home.png"> </a>
+</div>
+<div id="home2"><a href="#"><img src="home.png"> </a>
+</div>
+<div id="home3"><a href="#"><img src="home.png"> </a>
+</div>
+<div id="home4"><a href="#"><img src="home.png"> </a>
+</div>
+
+<script type="text/javascript">
+    var oDiv = document.getElementById('home4');
+    window.onscroll = function() {
+        oDiv.style.display = 'inline-block';
+        var height = document.documentElement.scrollTop || document.body.scrollTop;
+        var browserheight = window.innerHeight;
+        console.log(height);
+        if(height <browserheight*0.7) {
+            oDiv.style.display = 'none';
+        }
+    }
+
+
+</script>
 </body>
 </html>

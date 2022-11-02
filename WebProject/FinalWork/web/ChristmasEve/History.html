@@ -10,6 +10,17 @@
 
 <img id="bottom_img" src="../../static/images/ChristmasEve/History/header.jpg">
 <h1 id="title_h1">平安夜的历史</h1>
+<!--<div class="sticky"><ul>-->
+
+<!--    <li><a href="#Start">1.平安夜是怎么诞生的</a></li>-->
+<!--    <li><a href="#significance">2.平安夜的另一个意义</a></li>-->
+<!--    <li><a href="#traditions">3.平安夜的传统</a></li>-->
+<!--    <li><a href="#Truce">4.圣诞休战</a></li>-->
+<!--    <li><a href="#Moon">5.月球与平安夜</a></li>-->
+<!--    <li><a href="#bottom_img">返回顶部</a></li>-->
+
+<!--</ul></div>-->
+<!--<div class="title_h2_div"><h2 class="h2_title">目录</h2></div>-->
 <h2 class="title">目录</h2>
 <div class="contents">
     <ul>
@@ -24,6 +35,8 @@
     <p>
         庆祝平安夜的传统部分来源于从日落开始的基督教礼拜仪式，这一仪式继承了犹太传统，以《创世纪》的《创造的故事》为基础，称第一天从晚上开始，到早上结束。也有人认为，耶稣，或拿撒勒的耶稣，在午夜出生于巴勒斯坦地区。许多关于古代传统的历史观念促成了前夜庆祝活动的发展，这种庆祝活动在早期基督教历法中一直存在。</p>
 </div>
+<div id="home"><a  href="#bottom_img"><img src="../../static/images/ChristmasEve/History/home.png">回到顶部</a></div>
+<div id="index"><a  href="../ChristmasEve/index.html" ><img src="../../static/images/ChristmasEve/History/index.jpg">返回首页</a></div>
 <h2 id="Start" class="title">平安夜是怎么诞生的</h2>
 <p class="body_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平安夜标志着复临节的结束，复临节是圣诞节的准备期，从11月30日开始，在东部是11月15日。就在这个晚上，在伯利恒郊外看守羊群的牧羊人看到了天空中那颗明亮的星星，这颗星星预示着耶稣基督的诞生。这就是为什么许多教堂在圣诞节前的第四个星期天开始礼拜。从12世纪到15世纪，由于神圣宗教裁判所，基督教传统被强制执行。在16世纪，教堂受到冬至庆祝活动的影响，并在前一天晚上开始准备圣诞节。</p>
 <p class="body_text">
@@ -66,5 +79,21 @@
             href="https://www.bilibili.com" target="_blank">哔哩哔哩</a></p>
 
 </div>
+
+
+
+<script type="text/javascript">
+    var oDiv = document.getElementById('home');
+    window.onscroll = function() {
+        oDiv.style.display = 'block';
+        var height = document.documentElement.scrollTop || document.body.scrollTop;
+        var browserheight = window.innerHeight;
+        console.log(height);
+        if(height <browserheight*0.8) {
+            oDiv.style.display = 'none';
+        }
+    }
+
+</script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+#home1{
+right: 0;
+    /*width: 5%;*/
+    bottom: 60%;
+    position: fixed;
+    display: inline-block;
+}
+#home2{
+    right: 0;
+    /*width: 5%;*/
+    bottom: 55%;
+    position: fixed;
+    display: inline-block;
+}
+#home3{
+    right: 0;
+    /*width: 5%;*/
+    bottom: 50%;
+    position: fixed;
+    display: inline-block;
+}
+#home4{
+    right: 0;
+    /*width: 5%;*/
+    bottom: 45%;
+    position: fixed;
+    display: none;
+}
