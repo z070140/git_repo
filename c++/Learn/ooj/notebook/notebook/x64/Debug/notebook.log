@@ -1,3 +1,7 @@
 ﻿  NoteBook.cpp
-D:\git_repo\c++\Learn\ooj\notebook\notebook\NoteBook.cpp(18,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-  notebook.vcxproj -> D:\git_repo\c++\Learn\ooj\notebook\x64\Debug\notebook.exe
+D:\git_repo\c++\Learn\ooj\notebook\notebook\NoteBook.cpp(21,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\git_repo\c++\Learn\ooj\notebook\notebook\NoteBook.cpp(50,15): error C2228: “.length”的左边必须有类/结构/联合
+D:\git_repo\c++\Learn\ooj\notebook\notebook\NoteBook.cpp(50,15): message : 类型是“std::string *”
+D:\git_repo\c++\Learn\ooj\notebook\notebook\NoteBook.cpp(50,15): message : 是否改用“->”?
+D:\git_repo\c++\Learn\ooj\notebook\notebook\NoteBook.cpp(54,14): error C2440: “=”: 无法从“const char *”转换为“std::string *”
+D:\git_repo\c++\Learn\ooj\notebook\notebook\NoteBook.cpp(54,12): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
