@@ -1,5 +1,7 @@
 package notebook;
 
+import java.io.PrintWriter;
+import java.lang.invoke.StringConcatFactory;
 import java.util.ArrayList;
 import java.util.HashSet;
 
@@ -9,7 +11,10 @@ class Value {
     public void set(int i) {
         this.i = i;
     }
-
+/**
+ * 
+ * @return
+ */
     public int get() {
         return i;
     }
@@ -55,6 +60,11 @@ public class NoteBook {
     }
 
     public static void main(String[] args) {
+	String aString = ""+123;
+	System.out.println(aString);
+//        int a = 0;
+//        int b = 0;
+//        System.out.println(args[0]);
         Value v = new Value();
         v.set(10);
         System.out.println(v);
