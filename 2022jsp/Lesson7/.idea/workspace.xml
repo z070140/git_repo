@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a84600a1-22fb-4220-b212-715ccabfef65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../test_que/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_que/.idea/artifacts/test_que_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_que/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_que/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_que/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_que/test_que.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/IO/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/IO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/IO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/IO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/IO/IO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebProject/FinalWork/web/History/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/FileContentIndex/3d9fa109-3a1f-4d4d-aae4-9da3a6fdd702.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/FileContentIndex/7f0c7512-3658-4488-bac4-06ec0a8e9bdb.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/FileContentIndex/cd2ad650-69b2-4b4b-866b-aafe6f9d1b13.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/FileContentIndex/d2972633-53e3-4d68-9538-263dfa3cfe00.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/FileContentIndex/read.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/v17/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/LinkedList/v17/ipch/AutoPCH/221ff7ad0bb8f602/LINKEDLIST.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/FileContentIndex/1f75ccf5-e4be-414d-ae5d-796cabc75721.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/FileContentIndex/df88b571-4e39-458b-b9cc-9dd0c9481361.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/v17/ipch/AutoPCH/b73db1c19edee5e1/LINKEDLIST.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.exe.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.tlog/LinkedList.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/LinkedList.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/vc143.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/notebook/src/notebook/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/notebook/src/notebook/NoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/FileContentIndex/a6bb5aa4-0d43-49d1-9ce0-dbdfeafc9e61.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/FileContentIndex/c3f4794c-1d48-4a00-bb72-3b2b7ccecd53.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/FileContentIndex/c44a6743-3e4f-4b94-a85c-1daa994255fe.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/FileContentIndex/ce81e5ad-11c3-4568-84a7-ba250885211a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/DynamicMalloc/.vs/DynamicMalloc/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/FileContentIndex/8a3a678b-890e-44e1-804f-eb8dc0ee4481.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/FileContentIndex/fac2adea-0a76-48f8-9cd7-203f992d9796.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/.vs/LinkedList/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/LinkedList/LinkedList/LinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/ResizeableArray/.vs/ResizeableArray/FileContentIndex/41c9d40c-991e-4360-8ef2-068c8c096798.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/ResizeableArray/.vs/ResizeableArray/FileContentIndex/c1efce5b-1457-430e-a073-717f1a55d810.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/Learn/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/.vs/GetAddr/FileContentIndex/3d7f523e-41e0-4479-9c60-74c2677223be.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/.vs/GetAddr/FileContentIndex/b4b9c149-e158-4137-8821-6b57ad617849.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/.vs/GetAddr/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/.vs/GetAddr/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/.vs/GetAddr/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/.vs/GetAddr/v17/ipch/AutoPCH/97557764cf28a16a/SIZEOF.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/GetAddr.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/GetAddr.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/GetAddr.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/GetAddr.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/SizeOf.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.tlog/GetAddr.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/GetAddr.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/SizeOf.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/GetAddr/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/.vs/OojListForEach/FileContentIndex/244d7338-4c45-4935-b1f9-c19add270843.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/.vs/OojListForEach/FileContentIndex/282640d8-276c-4012-bd47-962131a6c405.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/.vs/OojListForEach/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/.vs/OojListForEach/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/.vs/OojListForEach/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/.vs/OojListForEach/v17/ipch/AutoPCH/cbc54f8093d264f7/OOJLISTFOREACH.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/OojListForEach.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/OojListForEach.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/OojListForEach.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/OojListForEach.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/OojListForEach.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.tlog/OojListForEach.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/OojListForEach.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/OojListForEach/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/AutoClock.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/AutoClock.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/AutoClock.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/AutoClock.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/Clock.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/Display.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.tlog/AutoClock.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/AutoClock.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/Clock.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/Display.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/AutoClock/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/CharListString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/CharListString.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/Employee.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/Line.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/Student.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/charlist.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/construct.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/firstclass.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/firstclass.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/firstclass.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/firstclass.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/firstclass.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/tax.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/Employee.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/Line.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/Student.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/charlist.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/construct.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/employee.obj.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.tlog/firstclass.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/firstclass.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/tax.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/firstclass/firstclass/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/.vs/notebook/FileContentIndex/1012614f-3da8-4d98-806b-0b4a4f5cbe04.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/.vs/notebook/FileContentIndex/8ec842ab-3bac-4d86-9f01-df58fd1ee375.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/.vs/notebook/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/.vs/notebook/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/.vs/notebook/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/.vs/notebook/v17/ipch/AutoPCH/7af6a1c0d7e19943/NOTEBOOK.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/NoteBook.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/NoteBook.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/notebook.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/notebook.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/notebook.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.tlog/notebook.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/notebook.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/notebook/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/x64/Debug/notebook.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Learn/ooj/notebook/x64/Debug/notebook.pdb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2HI5xFaLZdUnCg54kZkWTfs60I9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HZIEE_JSP_Lesson8" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Lesson7:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Lesson7_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lesson7:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a84600a1-22fb-4220-b212-715ccabfef65" name="Default Changelist" comment="" />
+      <created>1667960001481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667960001481</updated>
+      <workItem from="1667960003995" duration="347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1667960351694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-311.1707.1027@0.0.1920.1040" timestamp="1667960351694" />
+  </component>
+</project>

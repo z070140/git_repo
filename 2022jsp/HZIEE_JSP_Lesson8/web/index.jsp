@@ -11,12 +11,14 @@
     <title>$Title$</title>
   </head>
   <body>
-<%--  <form action="abc.do" method="post">--%>
-    <form action="<%=request.getContextPath()%>/login" method="post">
+  <form action="abc.do" method="post">
+<%--    <form action="<%=request.getContextPath()%>/login" method="post">--%>
     用户名：<input type="text" name="userName"> <br>
     密码：<input type="password" name="pwd"> <br>
-
     <input type="submit" value="登录">
   </form>
+  <%= this.getServletConfig().getServletContext().getInitParameter("email")%>
+  <br>
+  <%= pageContext.getServletContext().getInitParameter("email")%>
   </body>
 </html>

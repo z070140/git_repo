@@ -10,11 +10,14 @@ import java.io.PrintWriter;
 public class HelloServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
-System.out.println("init()...");
+        System.out.println("init()...");
+        String email = this.getServletContext().getInitParameter("email");
+        System.out.println("FileServlet:" + email);
     }
 
     /**
      * Service方法不区分GET-POST方式
+     *
      * @param request
      * @param response
      * @throws ServletException

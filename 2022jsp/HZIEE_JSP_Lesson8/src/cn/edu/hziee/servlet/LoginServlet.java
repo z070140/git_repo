@@ -1,6 +1,7 @@
 package cn.edu.hziee.servlet;
 
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,10 +25,33 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        request.setCharacterEncoding("UTF-8");
+////        String userName = request.getParameter("userName");
+////        response.setContentType("text/html;charset=UTF-8");
+////        PrintWriter out = response.getWriter();
+////        out.print("欢迎"+userName);
         request.setCharacterEncoding("UTF-8");
         String userName = request.getParameter("userName");
-        response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        out.print("欢迎"+userName);
+        String pwd = request.getParameter("pwd");
+        if ("admin".equals(userName) && "123".equals(pwd)) {
+            // 进入管理员目录
+            // 1.创建请求分派的对象
+            RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/admin.jsp");
+//            request.getRequestDispatcher(("ok.jsp"));
+
+            // 2.调用
+
+            request.setAttribute("str", "hello");
+            rd.forward(request, response);
+
+        } else if ("user".equals(userName) && "123".equals(pwd)) {
+            RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/user.jsp");
+            rd.include(request,response);
+            response.setContentType("text/html;charset=UTF-8");
+            PrintWriter out = response.getWriter();
+            out.println("user Login");
+        } else {
+            response.sendRedirect("fail.jsp");
+        }
     }
 }
