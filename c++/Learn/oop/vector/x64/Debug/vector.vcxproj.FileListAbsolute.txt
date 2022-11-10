@@ -1,1 +1,0 @@
-D:\git_repo\c++\Learn\oop\vector\x64\Debug\vector.exe

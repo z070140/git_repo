@@ -1,0 +1,3 @@
+﻿  NoteBook.cpp
+D:\git_repo\c++\Learn\oop\notebook\notebook\NoteBook.cpp(21,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  notebook.vcxproj -> D:\git_repo\c++\Learn\oop\notebook\x64\Debug\notebook.exe

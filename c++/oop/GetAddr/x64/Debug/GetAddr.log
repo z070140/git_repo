@@ -1,0 +1,8 @@
+﻿  SizeOf.cpp
+D:\git_repo\c++\Learn\ooj\GetAddr\SizeOf.cpp(7,13): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
+D:\git_repo\c++\Learn\ooj\GetAddr\SizeOf.cpp(7,13): warning C4302: “类型强制转换”: 从“int *”到“int”截断
+D:\git_repo\c++\Learn\ooj\GetAddr\SizeOf.cpp(10,9): warning C4477: “printf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“size_t”
+D:\git_repo\c++\Learn\ooj\GetAddr\SizeOf.cpp(10,9): message : 请考虑在格式字符串中使用“%zu”
+D:\git_repo\c++\Learn\ooj\GetAddr\SizeOf.cpp(11,9): warning C4477: “printf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“size_t”
+D:\git_repo\c++\Learn\ooj\GetAddr\SizeOf.cpp(11,9): message : 请考虑在格式字符串中使用“%zu”
+  GetAddr.vcxproj -> D:\git_repo\c++\Learn\ooj\GetAddr\x64\Debug\GetAddr.exe

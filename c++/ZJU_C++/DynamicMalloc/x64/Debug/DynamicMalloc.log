@@ -1,0 +1,3 @@
+﻿  LearnChar.cpp
+D:\git_repo\c++\Learn\ZJU_C++\DynamicMalloc\LearnChar.cpp(1,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  DynamicMalloc.vcxproj -> D:\git_repo\c++\Learn\ZJU_C++\DynamicMalloc\x64\Debug\DynamicMalloc.exe
