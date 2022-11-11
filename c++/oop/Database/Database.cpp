@@ -18,7 +18,7 @@ public:
 		this->gotIt = gotIt;
 		this->comment = comment;
 	}
-	void print() {
+	virtual void print() {
 		cout << title<<":"<<playingTime<<":"<<gotIt<<":"<<comment << endl;
 	};
 
@@ -52,9 +52,9 @@ private:
 public:
 	DVD(string title, string director, int playingTime, string comment); 
 	void print() {
-		//cout << "DVD:" <<  ":" << director << endl;
-	Item:print();
-	}
+		cout << "DVD:" << ":" << director << endl;
+		Item::print();
+	} 
 };
 DVD::DVD(string title, string director, int playingTime, string comment):Item(title, playingTime, false, comment) {
 	this->director = director;
@@ -62,7 +62,7 @@ DVD::DVD(string title, string director, int playingTime, string comment):Item(ti
 	
 class Database {
 private:
-	vector<Item> listItem;
+	vector<Item*> listItem;
 public:
 	/*void add(CD cd) {
 		listCD.push_back(cd);
@@ -70,7 +70,7 @@ public:
 	void add(DVD dvd) {
 		listDVD.push_back(dvd);
 	}*/
-	void add(Item item) {
+	void add(Item *item) {
 		listItem.push_back(item);
 	}
 	void list() {
@@ -80,8 +80,8 @@ public:
 		for (DVD dvd : listDVD) {
 			dvd.print();
 		}*/
-		for (Item item : listItem) {
-			item.print();
+		for (Item* item : listItem) {
+			item->print();
 		}
 	}
 };
@@ -92,7 +92,7 @@ int main() {
 	Database db;
 	CD cd("title", "artist", 4, 60, "这是CD");
 	DVD dvd("xxx", "aaa", 60, "这是DVD");
-	db.add(cd);
-	db.add(dvd);
+	db.add(&cd);
+	db.add(&dvd);
 	db.list();
 }
