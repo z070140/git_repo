@@ -1,4 +1,65 @@
-package PACKAGE_NAME;
+//: ShiftRight/ShiftRight.java
+// ShiftRight with HEX.
 
 public class ShiftRight {
-}
+    public static  void main(String[] args){
+        int a = 0xABCDEF;
+        while(a!=0){
+            System.out.println(Integer.toBinaryString(a));
+            a>>=1;
+        }
+        int b= 0xFFFF;
+        System.out.println(Integer.toBinaryString(b));
+        b<<=1;
+        System.out.println(Integer.toBinaryString(b));
+        while(b!=0){
+            System.out.println(Integer.toBinaryString(b));
+            b>>>=1;
+        }
+
+    }
+} /* Output
+101010111100110111101111
+10101011110011011110111
+1010101111001101111011
+101010111100110111101
+10101011110011011110
+1010101111001101111
+101010111100110111
+10101011110011011
+1010101111001101
+101010111100110
+10101011110011
+1010101111001
+101010111100
+10101011110
+1010101111
+101010111
+10101011
+1010101
+101010
+10101
+1010
+101
+10
+1
+1111111111111111
+11111111111111110
+11111111111111110
+1111111111111111
+111111111111111
+11111111111111
+1111111111111
+111111111111
+11111111111
+1111111111
+111111111
+11111111
+1111111
+111111
+11111
+1111
+111
+11
+1
+*///:~
