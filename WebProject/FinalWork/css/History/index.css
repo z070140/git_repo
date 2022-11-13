@@ -1,10 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+body {
+    background-color: #000;
+    overflow: hidden;
+}
+
+#body_img {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#Christmas {
+    display: inline-block;
+    width: 7%;
+    height: 110px;
+    /*border: #f4f4f5 1px solid;*/
+    position: absolute;
+    right: 24.5%;
+    top: 25%;
+}
+
+#Christmas a {
+    color: #f4f4f5;
+}
+
+#Christmas a div {
+    width: 100%;
+    height: 110px;
+}
+
+#Christmas_History {
+    display: inline-block;
+    width: 7%;
+    height: 120px;
+    position: absolute;
+    right: 17%;
+    top: 57%;
+    /*border: #f4f4f5 1px solid;*/
+}
+
+#Christmas_History a {
+    color: #f4f4f5;
+}
+
+#Christmas_History a div {
+    width: 100%;
+    height: 120px;
+}
+
+#Christmas_eve {
+    display: inline-block;
+    width: 7%;
+    height: 110px;
+    float: right;
+    position: absolute;
+    right: 40%;
+    top: 64%;
+    /*border: #f4f4f5 1px solid;*/
+}
+
+#Christmas_eve a {
+    color: #f4f4f5;
+}
+
+#Christmas_eve a div {
+    width: 100%;
+    height: 120px;
+}
+
+#Christmas_eve_History {
+    display: inline-block;
+    width: 7%;
+    height: 110px;
+    /*border: #f4f4f5 1px solid;*/
+    position: absolute;
+    right: 43%;
+    top: 87.7%;
+}
+
+#Christmas_eve_History a {
+    color: #f4f4f5;
+}
+
+#Christmas_eve_History a div {
+    width: 100%;
+    height: 120px;
+}
+
+#Christmas_Media {
+    display: inline-block;
+    width: 7%;
+    height: 110px;
+    /*border: #f4f4f5 1px solid;*/
+    position: absolute;
+    right: 22%;
+    top: 76%;
+}
+
+#Christmas_Media a {
+    color: #f4f4f5;
+    /*color: ;*/
+}
+
+#Christmas_Media a div {
+    width: 100%;
+    height: 110px;
+}
+
+#content{
+    position: absolute;
+    right: 60%;
+    text-align: center;
+    top: 40%;
+    color: #ffede5;
+}
+
+#content h1{
+    font: italic 2VW Georgia, serif;
+    text-shadow: 0.1em 0.1em #333
+}
+
