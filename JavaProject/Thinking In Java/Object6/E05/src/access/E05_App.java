@@ -1,0 +1,19 @@
+//package access;
+//
+//import access.E05.E05_Class;
+//
+//public class E05_App {
+//    public static void main(String[] args) {
+//        E05_Class e05_class = new E05_Class();
+//        e05_class.a = 10;
+//        e05_class.b = 20;
+//        e05_class.c = 30;
+//        e05_class.d = 40;
+//        e05_class.getA();
+//        e05_class.getB();
+//        e05_class.getC();
+//        e05_class.getD();
+//    }
+//
+//
+//}
