@@ -56,6 +56,7 @@ class Stem extends Root {
 
     public Stem(int i) {
         super(i);
+
         System.out.println("Stem");
     }
 
