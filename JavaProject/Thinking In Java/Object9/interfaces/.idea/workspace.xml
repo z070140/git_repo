@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f7ee3c7-6b81-451e-bfca-8c2077e06aa0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../2022jsp/Lseeon11/src/cn/edu/hziee/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022jsp/Lseeon11/src/cn/edu/hziee/utils/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/ArrayClassObj/src/ArrayClassObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/ArrayClassObj/src/ArrayClassObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/EnumDemo/src/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/EnumDemo/src/EnumDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/ExplicitStatic/src/ExplicitStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/ExplicitStatic/src/ExplicitStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/ExplicitStatic/src/TestStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/ExplicitStatic/src/TestStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/InitString/src/InitString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/InitString/src/InitString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/InitStringMethod/src/InitStringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/InitStringMethod/src/InitStringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/NewVarArgs/src/NewVarArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/NewVarArgs/src/NewVarArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/OverrideMainMethod/src/OverrideMainMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/OverrideMainMethod/src/OverrideMainMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/StringClass/src/StringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/StringClass/src/StringClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/StringVarargs/src/StringVarargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/StringVarargs/src/StringVarargs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Object5/untitled/src/VarArgsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Object5/untitled/src/VarArgsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ZJU_Java/ dome/src/dome/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ZJU_Java/ dome/src/dome/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ZJU_Java/JavaAdvanced/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ZJU_Java/JavaAdvanced/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ZJU_Java/StudentScore/out/production/StudentScore/StuedntScore/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ZJU_Java/StudentScore/out/production/StudentScore/StuedntScore/Students.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ZJU_Java/StudentScore/src/StuedntScore/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ZJU_Java/StudentScore/src/StuedntScore/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ZJU_Java/cells/out/production/cells/cellmachine/CellMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ZJU_Java/cells/out/production/cells/cellmachine/CellMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebProject/FinalWork/web/History/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebProject/FinalWork/web/History/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebProject/Lesson9/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebProject/Lesson9/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebProject/Lesson9/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebProject/Lesson9/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebProject/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WebProject/test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/FileContentIndex/b05048a0-8932-45f5-a4ca-8daa99bf6ef3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/FileContentIndex/d161bb23-7f6c-4a59-b600-260486cc40b4.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/Array_List.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/Array_List.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/ResizeableArray.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/ResizeableArray.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.vcxproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\git_repo\JavaProject\Thinking In Java\Object9\interfaces\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ho4XxQNIeEi71FHcIFf9YCC6CJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../E12" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adventure" />
+      <module name="interfaces" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Adventure" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f7ee3c7-6b81-451e-bfca-8c2077e06aa0" name="Default Changelist" comment="" />
+      <created>1668938145055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668938145055</updated>
+      <workItem from="1668938148730" duration="578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1668938730845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-284.1707.1027@0.0.1920.1040" timestamp="1668938730845" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1668938731627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-284.1707.1027@0.0.1920.1040" timestamp="1668938731627" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1668938731627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-284.1707.1027@0.0.1920.1040" timestamp="1668938731627" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1668938731627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-284.1707.1027@0.0.1920.1040" timestamp="1668938731627" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1668938731627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-284.1707.1027@0.0.1920.1040" timestamp="1668938731627" />
+  </component>
+</project>
