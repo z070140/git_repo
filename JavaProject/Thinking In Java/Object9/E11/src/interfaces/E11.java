@@ -3,6 +3,8 @@ package interfaces;
 import interfaces.interfaceprocessor.Apply;
 import interfaces.interfaceprocessor.Processor;
 
+import java.lang.reflect.InvocationTargetException;
+
 class CharacterPairSwapper {
     static String swap(String s) {
         StringBuffer sb = new StringBuffer(s);
@@ -29,7 +31,9 @@ class SwapperAdapter implements Processor {
 }
 
 public class E11 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        E11.class.getConstructor().newInstance();
+
         String s = new String();
         Apply.process(new SwapperAdapter(),"1234");
         Apply.process(new SwapperAdapter(),"abcde");

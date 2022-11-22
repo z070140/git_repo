@@ -41,6 +41,19 @@ class C4 extends C implements I3 {
     }
 }
 
+class C7 implements  I2,I3{
+
+    @Override
+    public int f(int i) {
+        return 0;
+    }
+
+    @Override
+    public int f() {
+        return 0;
+    }
+}
+
 // Methods differ only by return type:
 //class C5 extends C implements I1 {
 //  public int f(){
