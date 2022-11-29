@@ -11,6 +11,18 @@
     <title>$Title$</title>
 </head>
 <body>
+<script type="text/javascript">
+    var ChangePwdInfo = "<%=
+    session.getAttribute("AdminChangePwd_success")
+    %>";
+    if (ChangePwdInfo !== ""&&ChangePwdInfo!=="null") {
+        alert(ChangePwdInfo);
+        <%
+        session.setAttribute("AdminChangePwd_success","");
+        %>
+    }
+</script>
+
 <%
     if (session.getAttribute("user_role_id") == null) {
 
@@ -35,7 +47,15 @@
     <input type="radio" name="role_id" value=4>系统管理员<br><br>
     <input type="submit" value="登录">
 </form>
-<%=session.getAttribute("error") == null ? "" : session.getAttribute("error")%>
+<script type="text/javascript">
+    var x = "<%=session.getAttribute("login_error")%>";
+    if (x !== ""&&x!=="null") {
+        alert(x);
+        <%
+        session.setAttribute("login_error","");
+        %>
+    }
+</script>
 
 <script type="text/javascript">
     function validateForm() {

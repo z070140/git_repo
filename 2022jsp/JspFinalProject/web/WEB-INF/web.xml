@@ -19,4 +19,36 @@
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>*.logout</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminChangePwd</servlet-name>
+        <servlet-class>servlet.AdminChangePwd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminChangePwd</servlet-name>
+        <url-pattern>*.change</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>StudentDelete</servlet-name>
+        <servlet-class>servlet.StudentDelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentDelete</servlet-name>
+        <url-pattern>*.deleteStudent</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>StudentAdd</servlet-name>
+        <servlet-class>servlet.StudentAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentAdd</servlet-name>
+        <url-pattern>*.studentAdd</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>StudentSelectList</servlet-name>
+        <servlet-class>servlet.AdminSelectListStudent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentSelectList</servlet-name>
+        <url-pattern>*.selectListStudent</url-pattern>
+    </servlet-mapping>
 </web-app>

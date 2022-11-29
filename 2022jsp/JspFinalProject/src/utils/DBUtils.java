@@ -114,13 +114,13 @@ public class DBUtils {
     }
 
     /**
-     * 方法功能：登录检查
+     * 方法功能：修改密码检查
      *
      * @param table
      * @param column
      * @return
      */
-    public boolean checkId(String table, String column, String value) {
+    public boolean checkPwd(String table, String column, String value) {
         boolean flag = false;
         try {
             String sql = "select " + column + "  from " + table + " where " + column + " = ?";
@@ -227,7 +227,9 @@ public class DBUtils {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         DBUtils db = getInstance();
-
+        String[] field = {"student_id", "student_name", "department_id", "role_id", "student_pwd"};
+        String[] value = {"1", "测试学生1", "1", "0", "ceshixuesheng"};
+        db.insertData("student",field,value);
     //        String[] field = {"user_name"};
 //        String[] value = {"abc"};
 //        boolean flag = db.modifyData("user",field,value,"id in(1,3,5,7,9,11)");
