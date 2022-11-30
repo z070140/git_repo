@@ -45,8 +45,10 @@ public class AdminStudent extends HttpServlet {
                 gotoPage(request, response, "/adminListStudent.jsp");
                 return;
             }
+            request.setAttribute("class_id","");
             String student_name = request.getParameter("student_name");
             String student_pwd = request.getParameter("student_pwd");
+
             //取得当前时间并格式化
             //插入数据
             String[] fields = {"student_id", "student_name","student_pwd"};

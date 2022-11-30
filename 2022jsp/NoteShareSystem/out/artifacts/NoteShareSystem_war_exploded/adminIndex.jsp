@@ -20,6 +20,38 @@
     <title>管理员主页</title>
 </head>
 <body>
+<form name="form1" method="post" action="">
+    筛选：
+    <select name="class_id">
+        <%
+            if (request.getParameter("class_id") == null || "".equals(request.getParameter("class_id"))) {
+                session.setAttribute("class_id", "");
+        %>
+        <option selected value="">----------请选择----------</option>
+        <%} else { %>
+        <option value="">----------请选择----------</option>
+        <% } %>
+        <%
+            List<String[]> class_info = dob.getData("class", new String[]{"class_id", "class_name"}, null);
+            for (int i = 0; i < class_info.size(); i++) {
+                String[] class_detail = class_info.get(i);
+                if (class_detail[0].equals(request.getParameter("class_id"))) {
+        %>
+        <option selected value="<%=class_detail[0]%>"><%=class_detail[1]%>
+        </option>
+        <%
+        } else {
+        %>
+        <option value="<%=class_detail[0]%>"><%=class_detail[1]%>
+        </option>
+        <%
+                }
+            }
+
+        %>
+    </select>
+    <input type="submit" name="Submit" value="筛选">
+</form>
 <script type="text/javascript">
     <%
     if((String)session.getAttribute("addError")!=null){
@@ -57,26 +89,42 @@
 <a href="logout.logout" methods="post">
     <button>退出登录</button>
 </a>
-<table width="551" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
+<table width="700" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
     <tr>
         <td width="80" bgcolor="#CCCCCC">编号</td>
+        <td width="500" bgcolor="#CCCCCC">课程</td>
         <td width="100" bgcolor="#CCCCCC">学号</td>
-        <td width="91" bgcolor="#CCCCCC">作者</td>
-        <td width="120" bgcolor="#CCCCCC">内容</td>
+        <td width="200" bgcolor="#CCCCCC">作者</td>
+        <td width="200" bgcolor="#CCCCCC">内容</td>
         <td width="146" bgcolor="#CCCCCC">时间</td>
         <td width="146" bgcolor="#CCCCCC">是否公开</td>
-        <td width="148" bgcolor="#CCCCCC">操作</td>
+        <td width="200" bgcolor="#CCCCCC">操作</td>
     </tr>
     <%
-        String[] temp = {"note_id", "student_id", "note_content", "note_time", "isShared"};
-        List<String[]> vec = dob.getData("note", temp, null);
+        request.setCharacterEncoding("UTF-8");
+        String class_id = request.getParameter("class_id");
+        if (class_id == null) {
+            class_id = "";
+            session.setAttribute("class_id", "");
+        }
+        String condition = "";
+        if (!"".equals(class_id)) {
+            condition = "class_id = '" + class_id + "'";
+            session.setAttribute("class_id", class_id);
+        }
+
+        String[] temp = {"note_id", "student_id", "note_content", "note_time", "isShared", "class_id"};
+        List<String[]> vec = dob.getData("note", temp, condition);
         for (int i = 0; i < vec.size(); i++) {
             String[] ss = vec.get(i);
             String student_name = dob.getData("student", new String[]{"student_name"}, "student_id='" + ss[1] + "'").get(0)[0];
+            String class_name = dob.getData("class", new String[]{"class_name"}, "class_id ='" + ss[5] + "'").get(0)[0];
             String isShared = ss[4].equals("0") ? "否" : "是";
     %>
     <tr>
         <td bgcolor="#FFFFFF"><%=ss[0]%>
+        </td>
+        <td bgcolor="#FFFFFF"><%=class_name%>
         </td>
         <td bgcolor="#FFFFFF"><%=ss[1]%>
         </td>

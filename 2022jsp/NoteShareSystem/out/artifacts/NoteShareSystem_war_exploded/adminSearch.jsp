@@ -39,22 +39,44 @@
     }
 %>
 <%
+    String class_id = (String) session.getAttribute("class_id");
     request.setCharacterEncoding("UTF-8");
     String key = request.getParameter("key");
-    if (key == null) key = "";
     String condition = "";
-
-    if (!"".equals(key)) {
-        if (key.length() == 9 && isNumeric(key)) {
-            condition = " student_id= '" + key + "'";
-            System.out.println(condition);
-        } else {
-            condition = "note_content like '%" + key + "%'";
-            System.out.println(condition);
+    String masterCondition = "";
+    System.out.println("----------------" + class_id + "----------------");
+    if (key == null) key = "";
+    if (class_id == null || "".equals(class_id)) {
+        condition = "";
+        masterCondition = "";
+        if (!"".equals(key)) {
+            if (key.length() == 9 && isNumeric(key)) {
+                condition += " student_id= '" + key + "'";
+                masterCondition += " student_id= '" + key + "'";
+                System.out.println(condition);
+            } else {
+                condition += "  note_content like '%" + key + "%'";
+                masterCondition += "  note_content like '%" + key + "%'";
+                System.out.println(condition);
+            }
         }
     } else {
-        condition = "";
+        condition = "class_id = '" + class_id + "'";
+        masterCondition = "class_id = '" + class_id + "'";
+        if (!"".equals(key)) {
+            if (key.length() == 9 && isNumeric(key)) {
+                condition += "and student_id= '" + key + "'";
+                masterCondition += "and student_id= '" + key + "'";
+                System.out.println(condition);
+            } else {
+                condition += " and note_content like '%" + key + "%'";
+                masterCondition += " and note_content like '%" + key + "%'";
+                System.out.println(condition);
+            }
+        }
     }
+
+
 //分页查询
     int pageNum = 1;//默认是1
     String page1 = request.getParameter("page");
@@ -73,31 +95,35 @@
 
 <%
     String[] field = {"note_id"};
-    List dataList = dob.getData("note", field, null);
+    List dataList = dob.getData("note", field, masterCondition);
     int totalPage = dataList.size() % pageSize == 0 ? dataList.size() / pageSize : dataList.size() / pageSize + 1;//得到所有记录数/每页显示条数
     System.out.println(totalPage);
 %>
 
-<table width="551" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
+<table width="700" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
     <tr>
         <td width="80" bgcolor="#CCCCCC">编号</td>
+        <td width="500" bgcolor="#CCCCCC">课程</td>
         <td width="100" bgcolor="#CCCCCC">学号</td>
-        <td width="91" bgcolor="#CCCCCC">作者</td>
-        <td width="120" bgcolor="#CCCCCC">内容</td>
+        <td width="200" bgcolor="#CCCCCC">作者</td>
+        <td width="200" bgcolor="#CCCCCC">内容</td>
         <td width="146" bgcolor="#CCCCCC">时间</td>
         <td width="146" bgcolor="#CCCCCC">是否公开</td>
-        <td width="148" bgcolor="#CCCCCC">操作</td>
+        <td width="200" bgcolor="#CCCCCC">操作</td>
     </tr>
     <%
-        String[] temp = {"note_id", "student_id", "note_content", "note_time", "isShared"};
+        String[] temp = {"note_id", "student_id", "note_content", "note_time", "isShared", "class_id"};
         List<String[]> vec = dob.getData("note", temp, condition);
         for (int i = 0; i < vec.size(); i++) {
             String[] ss = vec.get(i);
             String student_name = dob.getData("student", new String[]{"student_name"}, "student_id='" + ss[1] + "'").get(0)[0];
+            String class_name = dob.getData("class", new String[]{"class_name"}, "class_id ='" + ss[5] + "'").get(0)[0];
             String isShared = ss[4].equals("0") ? "否" : "是";
     %>
     <tr>
         <td bgcolor="#FFFFFF"><%=ss[0]%>
+        </td>
+        <td bgcolor="#FFFFFF"><%=class_name%>
         </td>
         <td bgcolor="#FFFFFF"><%=ss[1]%>
         </td>

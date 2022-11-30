@@ -32,7 +32,7 @@
 <%
     String userName = (String) session.getAttribute("userName");
     String note_id = request.getParameter("note_id");
-    String[] temp = {"student_id", "note_content", "isShared"};
+    String[] temp = {"student_id", "note_content", "isShared", "class_id"};
     if (!dob.checkedLogin("note", "note_id='" + note_id + "' and student_id='" + userName + "'")) {
         session.setAttribute("error", "非法请求！！");
         response.sendRedirect("studentIndex.jsp");
@@ -41,11 +41,18 @@
     for (int i = 0; i < vec.size(); i++) {
         String[] ss = vec.get(i);
         String student_name = dob.getData("student", new String[]{"student_name"}, "student_id='" + ss[0] + "'").get(0)[0];
+        String class_name = dob.getData("class", new String[]{"class_name"}, "class_id ='" + ss[3] + "'").get(0)[0];
 %>
 <form name="form1" method="post" action="edit.studentDo" onSubmit="return isok();">
     <table width="459" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
         <tr>
             <td colspan="2" bgcolor="#FFFFFF">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="99" bgcolor="#FFFFFF">课程:</td>
+            <td width="357" bgcolor="#FFFFFF">
+                <input name="class_name" type="text" value="<%=class_name%>" readonly="true">
+            </td>
         </tr>
         <tr>
             <td width="99" bgcolor="#FFFFFF">学号:</td>

@@ -27,7 +27,7 @@
 <%
     String note_id = request.getParameter("note_id");
     String userName = (String) session.getAttribute("userName");
-    String[] temp = {"note_id", "student_id", "note_content", "note_time", "isShared"};
+    String[] temp = {"note_id", "student_id", "note_content", "note_time", "isShared","class_id"};
     if (!dob.checkedLogin("note", "note_id='" + note_id + "' and student_id='" + userName + "'")) {
         session.setAttribute("error", "非法请求！！");
         response.sendRedirect("studentIndex.jsp");
@@ -37,11 +37,15 @@
     for (int i = 0; i < vec.size(); i++) {
         String[] ss = vec.get(i);
         String student_name = dob.getData("student", new String[]{"student_name"}, "student_id='" + ss[1] + "'").get(0)[0];
+        String class_name = dob.getData("class", new String[]{"class_name"}, "class_id ='" + ss[5] + "'").get(0)[0];
         String isShared = ss[4].equals("0") ? "否" : "是";
 %>
 <table width="347" height="161" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
     <tr>
         <td width="337" height="25" bgcolor="#CCCCCC">编号：【<%=ss[0]%>】</td>
+    </tr>
+    <tr>
+        <td width="337" height="25" bgcolor="#CCCCCC">课程：【<%=class_name%>】</td>
     </tr>
     <tr>
         <td height="25" bgcolor="#CCCCCC">学号：【<%=ss[1]%>】</td>

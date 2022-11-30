@@ -43,7 +43,8 @@ public class CoreServlet extends HttpServlet {
             String student_id = request.getParameter("student_id");
             String note_content = request.getParameter("note_content");
             String isShared = request.getParameter("isShared");
-            if (student_id == null || note_content == null || isShared == null) {
+            String class_id = request.getParameter("class_id");
+            if (student_id == null || note_content == null || isShared == null|| class_id==null) {
                 HttpSession session = request.getSession();
                 session.setAttribute("addSuccess", "");
                 session.setAttribute("addError", "");
@@ -55,8 +56,8 @@ public class CoreServlet extends HttpServlet {
             Date date = new Date();
             String dateStr = sdf.format(date);
             //插入数据
-            String[] fields = {"student_id", "note_content", "note_time", "isShared"};
-            String[] values = {student_id, note_content, dateStr, isShared};
+            String[] fields = {"student_id", "note_content", "note_time", "isShared","class_id"};
+            String[] values = {student_id, note_content, dateStr, isShared,class_id};
             if (dob.insertData("note", fields, values)) {
                 HttpSession session = request.getSession();
                 session.setAttribute("addSuccess", "添加成功！！");

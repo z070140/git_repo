@@ -56,6 +56,7 @@ public class DBUtils {
             sql += " (" + strField + ") values(";
             sql += strValue + ")";
             prestmt = conn.prepareStatement(sql);
+            System.out.println(sql);
             int rscount = prestmt.executeUpdate();//受影响的记录数
             if (rscount > 0)
                 flag = true;
@@ -138,9 +139,9 @@ public class DBUtils {
             sql = "select " + strField + " from " + tableName + " where "
                     + condition;
         }
-        System.out.println(sql);
         try {
             prestmt = conn.prepareStatement(sql);
+            System.out.println(sql);
             rs = prestmt.executeQuery();
             while (rs.next()) {
                 String[] temp = new String[field.length];
