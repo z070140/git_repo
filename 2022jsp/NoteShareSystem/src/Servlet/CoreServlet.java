@@ -1,0 +1,113 @@
+package Servlet;
+
+
+import Utils.DBUtils;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ * add.do     添加
+ * edit.do    修改
+ * delete.do  删除
+ * find.do    查询操作
+ */
+public class CoreServlet extends HttpServlet {
+    protected void service(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String path = request.getRequestURI();// path = /lyb_war_exploded/add.do
+        String flag = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.')); // flag = add
+        debug(flag);
+        request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=UTF-8");
+        DBUtils dob = null;
+        try {
+            dob = new DBUtils();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        if ("add".equals(flag)) {//添加留言
+            debug("添加留言");
+            String student_id = request.getParameter("student_id");
+            String note_content = request.getParameter("note_content");
+            String isShared = request.getParameter("isShared");
+            if (student_id == null || note_content == null || isShared == null) {
+                HttpSession session = request.getSession();
+                session.setAttribute("addSuccess", "");
+                session.setAttribute("addError", "");
+                gotoPage(request, response, "/adminIndex.jsp");
+                return;
+            }
+            //取得当前时间并格式化
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.CHINESE);
+            Date date = new Date();
+            String dateStr = sdf.format(date);
+            //插入数据
+            String[] fields = {"student_id", "note_content", "note_time", "isShared"};
+            String[] values = {student_id, note_content, dateStr, isShared};
+            if (dob.insertData("note", fields, values)) {
+                HttpSession session = request.getSession();
+                session.setAttribute("addSuccess", "添加成功！！");
+                //请求分派
+                gotoPage(request, response, "/adminIndex.jsp");
+            } else {
+                HttpSession session = request.getSession();
+                session.setAttribute("addError", "添加失败，该作者非本班学生！");
+                gotoPage(request, response, "/adminIndex.jsp");
+            }
+        }
+        if ("edit".equals(flag)) {//修改留言
+            debug("修改留言");
+            String note_id = request.getParameter("note_id");
+            String student_id = request.getParameter("student_id");
+            String note_content = request.getParameter("note_content");
+            String isShared = request.getParameter("isShared");
+            if (note_id == null || student_id == null || note_content == null || isShared == null) {
+                HttpSession session = request.getSession();
+                session.setAttribute("addSuccess", "");
+                session.setAttribute("addError", "");
+                gotoPage(request, response, "/adminIndex.jsp");
+                return;
+            }
+            String[] field = {"student_id", "note_content","isShared"};
+            String[] value = {student_id, note_content,isShared};
+            dob.modifyData("note", field, value, "note_id=" + note_id);
+            gotoPage(request, response, "/adminIndex.jsp");
+        }
+        if ("delete".equals(flag)) {//删除留言
+            debug("删除留言");
+            String note_id = request.getParameter("note_id");
+            if (note_id == null) {
+                gotoPage(request, response, "/adminIndex.jsp");
+                return;
+            }
+            dob.deleteData("note", "note_id=" + note_id);
+            HttpSession session = request.getSession();
+            session.setAttribute("deleteSuccess", "删除成功");
+            gotoPage(request, response, "/adminIndex.jsp");
+        }
+    }
+
+    private void gotoPage(HttpServletRequest request, HttpServletResponse response, String path)
+            throws ServletException, IOException {
+        //请求分派
+        RequestDispatcher rd = request.getRequestDispatcher(path);
+        rd.forward(request, response);
+    }
+
+    public static void debug(String str) {
+        System.out.println(str);
+    }
+}
