@@ -138,7 +138,7 @@ public class DBUtils {
             sql = "select " + strField + " from " + tableName + " where "
                     + condition;
         }
-//        System.out.println(sql);
+        System.out.println(sql);
         try {
             prestmt = conn.prepareStatement(sql);
             rs = prestmt.executeQuery();

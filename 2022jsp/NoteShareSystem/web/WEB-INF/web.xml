@@ -35,4 +35,12 @@
         <servlet-name>adminServlet</servlet-name>
         <url-pattern>*.student</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>studentCoreServlet</servlet-name>
+        <servlet-class>Servlet.StudentCoreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>studentCoreServlet</servlet-name>
+        <url-pattern>*.studentDo</url-pattern>
+    </servlet-mapping>
 </web-app>

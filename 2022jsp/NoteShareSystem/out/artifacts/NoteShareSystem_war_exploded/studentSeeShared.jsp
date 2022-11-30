@@ -1,8 +1,8 @@
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: z0701
-  Date: 2022/11/29
-  Time: 19:41
+  Date: 2022/11/30
+  Time: 10:41
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -62,8 +62,8 @@
     }
     %>
 </script>
-<a href="studentAdd.jsp">添加留言</a><a href="studentSearch.jsp" target=_blank>查找留言</a>
-<a href="studentSeeShared.jsp" target=_blank>查看分享的留言</a>
+<a href="studentSeeSharedSearch.jsp" target=_blank>查找分享的留言</a>
+<a href="studentIndex.jsp" target=_blank>查看自己的留言</a>
 <a href="logout.logout" methods="post">
     <button>退出登录</button>
 </a>
@@ -78,8 +78,8 @@
         <td width="148" bgcolor="#CCCCCC">操作</td>
     </tr>
     <%
-        String[] temp = {"note_id","student_id", "note_content", "note_time", "isShared"};
-        List<String[]> vec = dob.getData("note", temp, "student_id='" + userName + "'");
+        String[] temp = {"note_id", "student_id", "note_content", "note_time", "isShared"};
+        List<String[]> vec = dob.getData("note", temp, "student_id!='" + userName + "' and isShared=1");
         for (int i = 0; i < vec.size(); i++) {
             String[] ss = vec.get(i);
             String student_name = dob.getData("student", new String[]{"student_name"}, "student_id='" + ss[1] + "'").get(0)[0];
@@ -99,8 +99,7 @@
         </td>
         <td bgcolor="#FFFFFF"><%=isShared%>
         </td>
-        <td bgcolor="#FFFFFF"><a href="studentDetail.jsp?note_id=<%=ss[0]%>" target=_blank>查看</a>/<a
-                href="studentModify.jsp?note_id=<%=ss[0]%>">修改</a>/<a href="delete.studentDo?note_id=<%=ss[0] %>">删除</a>
+        <td bgcolor="#FFFFFF"><a href="studentSeeSharedDetail.jsp?note_id=<%=ss[0]%>" target=_blank>查看</a>
         </td>
     </tr>
     <% } %>
