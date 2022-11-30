@@ -151,23 +151,23 @@ System.out.println(condition);
     </tr>
     <% } %>
 </table>
-<a href="studentSearch.jsp?page=<%=pageNum-1==0 ? 1 : pageNum-1%>">上一页</a>
+<a href="studentSearch.jsp?page=<%=pageNum-1==0 ? 1 : pageNum-1%>&key=<%=key%>">上一页</a>
 <%
     for (int i = 1; i <= totalPage; i++) {
         if (i == pageNum) {
 %>
-<a style="text-decoration: black;color: red" href="studentSearch.jsp?page=<%=i%>"><%=i%>&nbsp;&nbsp;&nbsp;
+<a style="text-decoration: black;color: red" href="studentSearch.jsp?page=<%=i%>&key=<%=key%>"><%=i%>&nbsp;&nbsp;&nbsp;
 </a>
 <%
 } else {
 %>
-<a style="text-decoration: none" href="studentSearch.jsp?page=<%=i%>"><%=i%>&nbsp;&nbsp;&nbsp;
+<a style="text-decoration: none" href="studentSearch.jsp?page=<%=i%>&key=<%=key%>"><%=i%>&nbsp;&nbsp;&nbsp;
 </a>
 <%
         }
     }
 %>
 <%--第<%=pageNum%>页 共<%=totalPage%>页--%>
-<a href="studentSearch.jsp?page=<%=pageNum+1>totalPage ? totalPage : pageNum+1%>">下一页</a>
+<a href="studentSearch.jsp?page=<%=pageNum+1>totalPage ? totalPage : pageNum+1%>&key=<%=key%>">下一页</a>
 </body>
 </html>
