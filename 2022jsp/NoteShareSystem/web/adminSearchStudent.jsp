@@ -23,10 +23,10 @@
 
 <form name="form1" method="post" action="">
     关键字：
-    <input name="key" type="text" id="key">
+    <input name="key1" type="text" id="key">
     <input type="submit" name="Submit" value="查找">
 </form>
-<a href="adminAdd.jsp">添加留言</a>
+<a href="adminAddStudent.jsp">添加学生</a>
 <%!
     boolean isNumeric(String str) {
         for (int i = 0; i < str.length(); i++) {
@@ -41,15 +41,28 @@
 <%
     request.setCharacterEncoding("UTF-8");
     String key = request.getParameter("key");
-    if (key == null) key = "";
-    String condition = "";
+    String key1 = request.getParameter("key1");
+    String page1 = request.getParameter("page");
+    String masterCondition = "";
 
+    if (key1 == null && key != null) {
+
+    } else if (key1 != null && key != null) {
+        key = key1;
+        page1 = "1";
+    } else if (key1 == null) {
+        key = "";
+    }
+
+    String condition = "";
     if (!"".equals(key)) {
         if (key.length() == 9 && isNumeric(key)) {
             condition = " student_id= '" + key + "'";
+            masterCondition=condition;
             System.out.println(condition);
         } else {
             condition = "student_name like '%" + key + "%'";
+            masterCondition=condition;
             System.out.println(condition);
         }
     } else {
@@ -57,7 +70,6 @@
     }
 //分页查询
     int pageNum = 1;//默认是1
-    String page1 = request.getParameter("page");
     if (!"".equals(page1) && page1 != null) {
         pageNum = Integer.parseInt(page1);
     }
@@ -73,16 +85,17 @@
 
 <%
     String[] field = {"student_id"};
-    List dataList = dob.getData("student", field, null);
+    List dataList = dob.getData("student", field, masterCondition);
     int totalPage = dataList.size() % pageSize == 0 ? dataList.size() / pageSize : dataList.size() / pageSize + 1;//得到所有记录数/每页显示条数
     System.out.println(totalPage);
 
 %>
 <table width="551" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
     <tr>
-        <td width="80" bgcolor="#CCCCCC">学号</td>
-        <td width="91" bgcolor="#CCCCCC">姓名</td>
-        <td width="120" bgcolor="#CCCCCC">密码</td>
+        <td width="100" bgcolor="#CCCCCC">学号</td>
+        <td width="200" bgcolor="#CCCCCC">姓名</td>
+        <td width="200" bgcolor="#CCCCCC">密码</td>
+        <td width="200" bgcolor="#CCCCCC">操作</td>
     </tr>
     <%
         String[] temp = {"student_id", "student_name", "student_pwd"};
@@ -103,24 +116,30 @@
     </tr>
     <% } %>
 </table>
-<a href="adminSearch.jsp?page=<%=pageNum-1==0 ? 1 : pageNum-1%>">上一页</a>
+<%
+    if (key1 != null && key != null) {
+        pageNum = 1;
+    }
+%>
+<a href="adminSearchStudent.jsp?page=<%=pageNum-1==0 ? 1 : pageNum-1%>&key=<%=key%>">上一页</a>
 <%
     for (int i = 1; i <= totalPage; i++) {
         if (i == pageNum) {
 %>
-<a style="text-decoration: black;color: red" href="adminSearch.jsp?page=<%=i%>"><%=i%>&nbsp;&nbsp;&nbsp;
+<a style="text-decoration: black;color: red" href="adminSearchStudent.jsp?page=<%=i%>&key=<%=key%>"><%=i%>&nbsp;&nbsp;&nbsp;
 </a>
 <%
 } else {
 %>
-<a style="text-decoration: none" href="adminSearch.jsp?page=<%=i%>"><%=i%>&nbsp;&nbsp;&nbsp;
+<a style="text-decoration: none" href="adminSearchStudent.jsp?page=<%=i%>&key=<%=key%>"><%=i%>&nbsp;&nbsp;&nbsp;
 </a>
 <%
         }
     }
 %>
+
 <a
-        href="adminSearch.jsp?page=<%=pageNum+1>totalPage ? totalPage : pageNum+1%>">下一页</a>
+        href="adminSearchStudent.jsp?page=<%=pageNum+1>totalPage ? totalPage : pageNum+1%>&key=<%=key%>">下一页</a>
 </body>
 </html>
 

@@ -23,7 +23,7 @@
 
 <form name="form1" method="post" action="">
     关键字：
-    <input name="key" type="text" id="key">
+    <input name="key1" type="text" id="key">
     <input type="submit" name="Submit" value="查找">
 </form>
 <a href="studentAdd.jsp">添加留言</a>
@@ -43,7 +43,19 @@
     String userName = (String) session.getAttribute("userName");
     request.setCharacterEncoding("UTF-8");
     String key = request.getParameter("key");
-    if (key == null) key = "";
+    String key1 = request.getParameter("key1");
+    String page1 = request.getParameter("page");
+
+
+    if (key1 == null && key != null) {
+
+    } else if (key1 != null && key != null) {
+        key = key1;
+        page1 = "1";
+    } else if (key1 == null) {
+        key = "";
+    }
+
     String condition = "";
     String masterCondition = null;
     if (class_id == null || "".equals(class_id)) {
@@ -75,7 +87,6 @@
     }
 //分页查询
     int pageNum = 1;//默认是1
-    String page1 = request.getParameter("page");
     if (!"".equals(page1) && page1 != null) {
         pageNum = Integer.parseInt(page1);
     }
@@ -137,6 +148,11 @@
     </tr>
     <% } %>
 </table>
+<%
+    if (key1 != null && key != null) {
+        pageNum = 1;
+    }
+%>
 <a href="studentSeeSharedSearch.jsp?page=<%=pageNum-1==0 ? 1 : pageNum-1%>&key=<%=key%>">上一页</a>
 <%
     for (int i = 1; i <= totalPage; i++) {
