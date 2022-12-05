@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c25edf87-2267-4bf0-9fec-3b3e0f17d7d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HZIEE_JSP_Lesson11/HomeWork/HomeWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HZIEE_JSP_Lesson11/Lseeon11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HZIEE_JSP_Lesson12/HZIEE_JSP_Lesson12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JspFinalProject/src/servlet/AdminChangePwd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dormitoryms/dormitoryms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JspTeacherCode/Lesson6(a.k.aLesson11)/Lesson6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JspTeacherCode/综合案例源码/lyb/lyb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/admin_index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/admin_index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/classes/utils/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/classes/utils/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/out/artifacts/JspFinalProject_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/out/production/JspFinalProject/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/out/production/JspFinalProject/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/out/production/JspFinalProject/utils/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/out/production/JspFinalProject/utils/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/src/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/src/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/src/utils/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/web/WEB-INF/admin_index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/web/WEB-INF/admin_index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JspFinalProject/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JspFinalProject/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/.idea/artifacts/Lesson7_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/Lesson7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson7/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/.idea/artifacts/Lesson8_1_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/Lesson8_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/src/cn/edu/hziee/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/src/cn/edu/hziee/servlet/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson8_1/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/.idea/artifacts/HomeWork_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/.idea/libraries/mysql_connector_java_5_0_3_bin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/HomeWork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/WEB-INF/classes/META-INF/HomeWork.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/WEB-INF/classes/cn/edu/hziee/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/WEB-INF/classes/cn/edu/hziee/servlet/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/WEB-INF/classes/cn/edu/hziee/utils/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/WEB-INF/lib/mysql-connector-java-5.0.3-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/artifacts/HomeWork_war_exploded/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/production/HomeWork/META-INF/HomeWork.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/production/HomeWork/cn/edu/hziee/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/production/HomeWork/cn/edu/hziee/servlet/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/out/production/HomeWork/cn/edu/hziee/utils/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/src/cn/edu/hziee/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/src/cn/edu/hziee/servlet/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/src/cn/edu/hziee/utils/DBUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/web/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/web/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/zuoye/229350738.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/zuoye/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/HomeWork/zuoye/屏幕截图 2022-11-17 133750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lseeon11/src/cn/edu/hziee/utils/DBUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/ dome/src/dome/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/ dome/src/dome/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/JavaAdvanced/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/JavaAdvanced/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/StudentScore/out/production/StudentScore/StuedntScore/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/StudentScore/out/production/StudentScore/StuedntScore/Students.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/StudentScore/src/StuedntScore/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/StudentScore/src/StuedntScore/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/cells/out/production/cells/cellmachine/CellMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaProject/ZJU_Java/cells/out/production/cells/cellmachine/CellMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebProject/FinalWork/web/History/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebProject/FinalWork/web/History/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebProject/Lesson9/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebProject/Lesson9/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebProject/Lesson9/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebProject/Lesson9/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebProject/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebProject/test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/FileContentIndex/b05048a0-8932-45f5-a4ca-8daa99bf6ef3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/FileContentIndex/d161bb23-7f6c-4a59-b600-260486cc40b4.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/.vs/ResizeableArray/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/Array_List.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/Array_List.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/ResizeableArray.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/ResizeableArray.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.vcxproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/ResizeableArray.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../c++/ZJU_C++/ResizeableArray/x64/Debug/vc143.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2IDYV7UCudLwUsRbEJUqSSIVsfd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="untitled:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/untitled_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="untitled:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c25edf87-2267-4bf0-9fec-3b3e0f17d7d8" name="Default Changelist" comment="" />
+      <created>1669717641615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669717641615</updated>
+      <workItem from="1669717652248" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1669717667308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.-309.1707.1027@0.0.1920.1040" timestamp="1669717667308" />
+    <state x="334" y="92" key="new project wizard" timestamp="1669717668803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="92" key="new project wizard/0.0.1920.1040/1920.-309.1707.1027@0.0.1920.1040" timestamp="1669717668803" />
+  </component>
+</project>

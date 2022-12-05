@@ -10,12 +10,9 @@
     if (session.getAttribute("role_id") == null) {
     } else if (((String) session.getAttribute("role_id")).equals("0")) {
         response.sendRedirect("studentIndex.jsp");
-//        RequestDispatcher rd = request.getRequestDispatcher("studentIndex.jsp");
-//        rd.forward(request,response);
+
     } else if (((String) session.getAttribute("role_id")).equals("1")) {
         response.sendRedirect("adminIndex.jsp");
-//        RequestDispatcher rd = request.getRequestDispatcher("studentIndex.jsp");
-//        rd.forward(request,response);
     }
 %>
 <!DOCTYPE html>

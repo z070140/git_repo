@@ -8,13 +8,13 @@
 <%@ page language="java"  pageEncoding="UTF-8"%>
 <jsp:useBean id="dob" class="Utils.DBUtils"/>
 <%
-    if(session.getAttribute("role_id")==null){
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("1")){
         response.sendRedirect("index.jsp");
     }
 %>
 <html>
 <head>
-    <title>添加留言</title>
+    <title>添加笔记</title>
 </head>
 <script language="javascript">
     function isok(){

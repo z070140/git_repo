@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Lseeon11:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lseeon11_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Lseeon11/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Lseeon11" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.0.3-bin" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

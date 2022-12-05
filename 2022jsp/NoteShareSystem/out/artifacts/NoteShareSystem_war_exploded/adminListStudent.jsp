@@ -8,6 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <jsp:useBean id="dob" class="Utils.DBUtils"/>
 <html>
+<%
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("1")){
+        response.sendRedirect("index.jsp");
+    }
+%>
 <head>
     <title>查看学生</title>
 </head>

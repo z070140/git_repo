@@ -9,7 +9,7 @@
 <jsp:useBean id="dob" class="Utils.DBUtils"></jsp:useBean>
 <%
     String userName = null;
-    if (session.getAttribute("role_id") == null) {
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("0")){
         response.sendRedirect("index.jsp");
     } else {
         userName = (String) session.getAttribute("userName");
@@ -17,7 +17,7 @@
 %>
 <html>
 <head>
-    <title>学生主页</title>
+    <title>查看分享的笔记</title>
 </head>
 <body>
 <form name="form1" method="post" action="">
@@ -94,8 +94,8 @@
     }
     %>
 </script>
-<a href="studentSeeSharedSearch.jsp" target=_blank>查找分享的留言</a>
-<a href="studentIndex.jsp" target=_blank>查看自己的留言</a>
+<a href="studentSeeSharedSearch.jsp" target=_blank>查找分享的笔记</a>
+<a href="studentIndex.jsp" target=_blank>查看自己的笔记</a>
 <a href="logout.logout" methods="post">
     <button>退出登录</button>
 </a>

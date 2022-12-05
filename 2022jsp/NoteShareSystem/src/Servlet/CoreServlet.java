@@ -38,8 +38,8 @@ public class CoreServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        if ("add".equals(flag)) {//添加留言
-            debug("添加留言");
+        if ("add".equals(flag)) {//添加笔记
+            debug("添加笔记");
             String student_id = request.getParameter("student_id");
             String note_content = request.getParameter("note_content");
             String isShared = request.getParameter("isShared");
@@ -69,8 +69,8 @@ public class CoreServlet extends HttpServlet {
                 gotoPage(request, response, "/adminIndex.jsp");
             }
         }
-        if ("edit".equals(flag)) {//修改留言
-            debug("修改留言");
+        if ("edit".equals(flag)) {//修改笔记
+            debug("修改笔记");
             String note_id = request.getParameter("note_id");
             String student_id = request.getParameter("student_id");
             String note_content = request.getParameter("note_content");
@@ -82,22 +82,33 @@ public class CoreServlet extends HttpServlet {
                 gotoPage(request, response, "/adminIndex.jsp");
                 return;
             }
-            String[] field = {"student_id", "note_content","isShared"};
-            String[] value = {student_id, note_content,isShared};
+            //取得当前时间并格式化
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.CHINESE);
+            Date date = new Date();
+            String dateStr = sdf.format(date);
+            //插入数据
+            String[] field = { "note_content", "note_time", "isShared"};
+            String[] value = {note_content, dateStr, isShared};
             dob.modifyData("note", field, value, "note_id=" + note_id);
             gotoPage(request, response, "/adminIndex.jsp");
         }
-        if ("delete".equals(flag)) {//删除留言
-            debug("删除留言");
+        if ("delete".equals(flag)) {//删除笔记
+            debug("删除笔记");
             String note_id = request.getParameter("note_id");
             if (note_id == null) {
                 gotoPage(request, response, "/adminIndex.jsp");
                 return;
             }
-            dob.deleteData("note", "note_id=" + note_id);
-            HttpSession session = request.getSession();
-            session.setAttribute("deleteSuccess", "删除成功");
-            gotoPage(request, response, "/adminIndex.jsp");
+            if (dob.deleteData("note", "note_id=" + note_id)) {
+                HttpSession session = request.getSession();
+                session.setAttribute("deleteSuccess", "删除成功");
+                gotoPage(request, response, "/adminIndex.jsp");
+            } else {
+                HttpSession session = request.getSession();
+                session.setAttribute("deleteSuccess", "");
+                gotoPage(request, response, "/adminIndex.jsp");
+                return;
+            }
         }
     }
 

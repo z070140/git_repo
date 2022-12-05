@@ -11,7 +11,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    if (session.getAttribute("role_id") == null) {
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("1")){
         response.sendRedirect("index.jsp");
     }
 %>
@@ -84,7 +84,7 @@
     }
     %>
 </script>
-<a href="adminAdd.jsp">添加留言</a><a href="adminSearch.jsp" target=_blank>查找留言</a>
+<a href="adminAdd.jsp">添加笔记</a><a href="adminSearch.jsp" target=_blank>查找笔记</a>
 <a href="adminListStudent.jsp" target=_blank>查看学生</a>
 <a href="logout.logout" methods="post">
     <button>退出登录</button>

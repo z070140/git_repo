@@ -11,7 +11,7 @@
 <%@ page import="java.sql.SQLException" %>
 <jsp:useBean id="dob" class="Utils.DBUtils"/>
 <%
-    if (session.getAttribute("role_id") == null) {
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("0")){
         response.sendRedirect("index.jsp");
     }
 %>
@@ -26,7 +26,7 @@
     <input name="key1" type="text" id="key">
     <input type="submit" name="Submit" value="查找">
 </form>
-<a href="studentAdd.jsp">添加留言</a>
+<a href="studentAdd.jsp">添加笔记</a>
 <%!
     boolean isNumeric(String str) {
         for (int i = 0; i < str.length(); i++) {
@@ -53,11 +53,12 @@
         page1 = "1";
     } else if (key1 == null) {
         key = "";
+    }else if(key1!=null&& key==null){
+        key = key1;
     }
 
     String condition = "";
     String masterCondition="";
-    System.out.println("----------------" + class_id + "----------------");
     if (class_id == null || "".equals(class_id)) {
         condition = "";
         masterCondition = "";
@@ -85,9 +86,6 @@
             masterCondition += "and student_id='" + userName + "'";
         }
     }
-System.out.println(condition);
-    System.out.println(masterCondition);
-    System.out.println("-------------------------------");
 
 
 //分页查询
@@ -165,23 +163,23 @@ System.out.println(condition);
         pageNum = 1;
     }
 %>
-<a href="studentSearch.jsp?page=<%=pageNum-1==0 ? 1 : pageNum-1%>&key=<%=key%>">上一页</a>
+<a href="studentSearch.jsp?page=<%=pageNum-1==0 ? 1 : pageNum-1%>&key=<%=key%>&class_id=<%=class_id%>">上一页</a>
 <%
     for (int i = 1; i <= totalPage; i++) {
         if (i == pageNum) {
 %>
-<a style="text-decoration: black;color: red" href="studentSearch.jsp?page=<%=i%>&key=<%=key%>"><%=i%>&nbsp;&nbsp;&nbsp;
+<a style="text-decoration: black;color: red" href="studentSearch.jsp?page=<%=i%>&key=<%=key%>&class_id=<%=class_id%>"><%=i%>&nbsp;&nbsp;&nbsp;
 </a>
 <%
 } else {
 %>
-<a style="text-decoration: none" href="studentSearch.jsp?page=<%=i%>&key=<%=key%>"><%=i%>&nbsp;&nbsp;&nbsp;
+<a style="text-decoration: none" href="studentSearch.jsp?page=<%=i%>&key=<%=key%>&class_id=<%=class_id%>"><%=i%>&nbsp;&nbsp;&nbsp;
 </a>
 <%
         }
     }
 %>
 <%--第<%=pageNum%>页 共<%=totalPage%>页--%>
-<a href="studentSearch.jsp?page=<%=pageNum+1>totalPage ? totalPage : pageNum+1%>&key=<%=key%>">下一页</a>
+<a href="studentSearch.jsp?page=<%=pageNum+1>totalPage ? totalPage : pageNum+1%>&key=<%=key%>&class_id=<%=class_id%>">下一页</a>
 </body>
 </html>

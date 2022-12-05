@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <jsp:useBean id="dob" class="Utils.DBUtils"/>
 <%
-    if(session.getAttribute("role_id")==null){
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("1")){
         response.sendRedirect("index.jsp");
     }
 %>
@@ -45,7 +45,7 @@
         <td height="25" bgcolor="#CCCCCC">时间：【<%=ss[3]%>】</td>
     </tr>
     <tr>
-        <td height="25" bgcolor="#CCCCCC">时间：【<%=isShared%>】</td>
+        <td height="25" bgcolor="#CCCCCC">是否公开：【<%=isShared%>】</td>
     </tr>
     <tr>
         <td height="24" bgcolor="#CCCCCC">内容：</td>

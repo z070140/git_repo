@@ -11,7 +11,7 @@
 <%@ page import="java.sql.SQLException" %>
 <jsp:useBean id="dob" class="Utils.DBUtils"/>
 <%
-    if(session.getAttribute("role_id")==null){
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("1")){
         response.sendRedirect("index.jsp");
     }
 %>
@@ -52,6 +52,8 @@
         page1 = "1";
     } else if (key1 == null) {
         key = "";
+    }else if(key1!=null&& key==null){
+        key = key1;
     }
 
     String condition = "";

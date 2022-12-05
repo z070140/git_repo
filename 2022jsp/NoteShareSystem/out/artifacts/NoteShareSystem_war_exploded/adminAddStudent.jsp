@@ -7,6 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<%
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("1")){
+        response.sendRedirect("index.jsp");
+    }
+%>
 <head>
     <title>添加学生</title>
 </head>

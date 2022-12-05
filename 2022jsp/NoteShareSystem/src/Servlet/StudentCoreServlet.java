@@ -38,13 +38,13 @@ public class StudentCoreServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        if ("add".equals(flag)) {//添加留言
-            debug("添加留言");
+        if ("add".equals(flag)) {//添加笔记
+            debug("添加笔记");
             String student_id = request.getParameter("student_id");
             String note_content = request.getParameter("note_content");
             String isShared = request.getParameter("isShared");
             String class_id = request.getParameter("class_id");
-            if (student_id == null || note_content == null || isShared == null|| class_id==null) {
+            if (student_id == null || note_content == null || isShared == null || class_id == null) {
                 HttpSession session = request.getSession();
                 session.setAttribute("addSuccess", "");
                 session.setAttribute("addError", "");
@@ -56,8 +56,8 @@ public class StudentCoreServlet extends HttpServlet {
             Date date = new Date();
             String dateStr = sdf.format(date);
             //插入数据
-            String[] fields = {"student_id", "note_content", "note_time", "isShared","class_id"};
-            String[] values = {student_id, note_content, dateStr, isShared,class_id};
+            String[] fields = {"student_id", "note_content", "note_time", "isShared", "class_id"};
+            String[] values = {student_id, note_content, dateStr, isShared, class_id};
             if (dob.insertData("note", fields, values)) {
                 HttpSession session = request.getSession();
                 session.setAttribute("addSuccess", "添加成功！！");
@@ -65,8 +65,8 @@ public class StudentCoreServlet extends HttpServlet {
                 gotoPage(request, response, "/studentIndex.jsp");
             }
         }
-        if ("edit".equals(flag)) {//修改留言
-            debug("修改留言");
+        if ("edit".equals(flag)) {//修改笔记
+            debug("修改笔记");
             String note_id = request.getParameter("note_id");
             String student_id = request.getParameter("student_id");
             String note_content = request.getParameter("note_content");
@@ -78,22 +78,33 @@ public class StudentCoreServlet extends HttpServlet {
                 gotoPage(request, response, "/studentIndex.jsp");
                 return;
             }
-            String[] field = {"student_id", "note_content","isShared"};
-            String[] value = {student_id, note_content,isShared};
+            //取得当前时间并格式化
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.CHINESE);
+            Date date = new Date();
+            String dateStr = sdf.format(date);
+            //插入数据
+            String[] field = {"note_content", "note_time", "isShared"};
+            String[] value = {note_content, dateStr, isShared};
             dob.modifyData("note", field, value, "note_id=" + note_id);
             gotoPage(request, response, "/studentIndex.jsp");
         }
-        if ("delete".equals(flag)) {//删除留言
-            debug("删除留言");
+        if ("delete".equals(flag)) {//删除笔记
+            debug("删除笔记");
             String note_id = request.getParameter("note_id");
             if (note_id == null) {
                 gotoPage(request, response, "/studentIndex.jsp");
                 return;
             }
-            dob.deleteData("note", "note_id=" + note_id);
-            HttpSession session = request.getSession();
-            session.setAttribute("deleteSuccess", "删除成功");
-            gotoPage(request, response, "/studentIndex.jsp");
+            if (dob.deleteData("note", "note_id=" + note_id)) {
+                HttpSession session = request.getSession();
+                session.setAttribute("deleteSuccess", "删除成功");
+                gotoPage(request, response, "/studentIndex.jsp");
+            } else {
+                HttpSession session = request.getSession();
+                session.setAttribute("deleteSuccess", "");
+                gotoPage(request, response, "/studentIndex.jsp");
+                return;
+            }
         }
     }
 

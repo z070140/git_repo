@@ -9,9 +9,9 @@
 <jsp:useBean id="dob" class="Utils.DBUtils"></jsp:useBean>
 <%
     String userName = null;
-    if (session.getAttribute("role_id") == null) {
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("0")){
         response.sendRedirect("index.jsp");
-    } else {
+    }else {
         userName = (String) session.getAttribute("userName");
     }
 %>
@@ -94,8 +94,8 @@
     }
     %>
 </script>
-<a href="studentAdd.jsp">添加留言</a><a href="studentSearch.jsp" target=_blank>查找留言</a>
-<a href="studentSeeShared.jsp" target=_blank>查看分享的留言</a>
+<a href="studentAdd.jsp">添加笔记</a><a href="studentSearch.jsp" target=_blank>查找笔记</a>
+<a href="studentSeeShared.jsp" target=_blank>查看分享的笔记</a>
 <a href="logout.logout" methods="post">
     <button>退出登录</button>
 </a>

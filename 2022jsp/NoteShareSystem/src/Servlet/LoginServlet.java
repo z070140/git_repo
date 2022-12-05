@@ -38,8 +38,6 @@ public class LoginServlet extends HttpServlet {
                     session.setAttribute("role_id", role_id);
                     session.setAttribute("userName", userName);
                     response.sendRedirect("studentIndex.jsp");
-//                    RequestDispatcher rd = request.getRequestDispatcher("studentIndex.jsp");
-//                    rd.forward(request,response);
                 } else {
                     HttpSession session = request.getSession();
                     session.setAttribute("loginError", "密码错误！！");
@@ -57,8 +55,6 @@ public class LoginServlet extends HttpServlet {
                     session.setAttribute("role_id", role_id);
                     session.setAttribute("userName", userName);
                     response.sendRedirect("adminIndex.jsp");
-//                    RequestDispatcher rd = request.getRequestDispatcher("adminIndex.jsp");
-//                    rd.forward(request,response);
                 } else {
                     HttpSession session = request.getSession();
                     session.setAttribute("loginError", "密码错误！！");
@@ -66,7 +62,7 @@ public class LoginServlet extends HttpServlet {
                 }
             } else {
                 HttpSession session = request.getSession();
-                session.setAttribute("loginError", "密码错误！！");
+                session.setAttribute("loginError", "账号不存在！！");
                 response.sendRedirect("index.jsp");
             }
 

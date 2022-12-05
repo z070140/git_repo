@@ -8,7 +8,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
 <jsp:useBean id="dob" class="Utils.DBUtils"/>
 <%
-    if (session.getAttribute("role_id") == null) {
+    if((session.getAttribute("role_id")) == null||!((String)session.getAttribute("role_id")).equals("1")){
         response.sendRedirect("index.jsp");
     }
 %>

@@ -5,36 +5,38 @@
   Time: 10:25
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java"  pageEncoding="UTF-8"%>
+<%@ page language="java" pageEncoding="UTF-8" %>
 <jsp:useBean id="dob" class="Utils.DBUtils"/>
 
+
 <%
-    String userName=null;
-    if(session.getAttribute("role_id")==null){
+    String userName = null;
+    if ((session.getAttribute("role_id")) == null || !((String) session.getAttribute("role_id")).equals("0")) {
         response.sendRedirect("index.jsp");
-    }else{
-        userName = (String)session.getAttribute("userName");
+    } else {
+        userName = (String) session.getAttribute("userName");
     }
 %>
 <html>
 <head>
-    <title>添加留言</title>
+    <title>添加笔记</title>
 </head>
-<script language="javascript">
-    function isok(){
-        if   (myselect.options[index].value==""||myselect.options[index].value=="null")
-        {
+<script type="text/javascript">
+
+
+    function isok() {
+        var myselect = document.getElementById("select");
+        var index = myselect.selectedIndex;
+        if (myselect.options[index].value === "" || myselect.options[index].value === "null") {
             window.alert("请选择课程！！");
-            return   false;
-        }
-        if   (form1.note_content.value=='')
-        {
+            return false;
+        } else if (form1.note_content.value === '') {
             window.alert("内容不能为空，请重输！");
             form1.note_content.focus();
-            return   false;
+            return false;
+        } else {
+            return true;
         }
-
-        return  true;
     }
 </script>
 <body>
@@ -79,7 +81,9 @@
         </tr>
         <tr>
             <td width="73" bgcolor="#FFFFFF">学号:</td>
-            <td width="411" bgcolor="#FFFFFF"><input type="hidden" name="student_id" value="<%=userName%>" readonly="true"><%=userName%></td>
+            <td width="411" bgcolor="#FFFFFF"><input type="hidden" name="student_id" value="<%=userName%>"
+                                                     readonly="true"><%=userName%>
+            </td>
         </tr>
         <tr>
             <td bgcolor="#FFFFFF">内容:</td>
@@ -87,7 +91,10 @@
         </tr>
         <tr>
             <td width="73" bgcolor="#FFFFFF">是否公开:</td>
-            <td width="411" bgcolor="#FFFFFF"><input type="radio" name="isShared" checked  value="0">否<input type="radio" name="isShared" value="1">是</td>
+            <td width="411" bgcolor="#FFFFFF"><input type="radio" name="isShared" checked value="0">否<input type="radio"
+                                                                                                            name="isShared"
+                                                                                                            value="1">是
+            </td>
         </tr>
         <tr>
             <td bgcolor="#FFFFFF">&nbsp;</td>

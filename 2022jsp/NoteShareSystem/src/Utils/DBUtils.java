@@ -1,5 +1,4 @@
 package Utils;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +11,7 @@ public class DBUtils {
     private static DBUtils instance = null;
 
     public static DBUtils getInstance() throws SQLException, ClassNotFoundException {
-        if (instance == null) {
-            instance = new DBUtils();
-        }
+        if (instance == null) instance = new DBUtils();
         return instance;
     }
 
@@ -206,12 +203,12 @@ public class DBUtils {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         DBUtils dob = null;
         dob = DBUtils.getInstance();
-        String[] temp = {"note_id", "student_id", "note_content", "note_time"};
-        List<String[]> vec = dob.getData("note", temp, null);
-        for (int i = 0; i < vec.size(); i++) {
-            String[] ss = vec.get(i);
-            System.out.println(dob.getData("student", new String[]{"student_id"}, ss[1]).get(0)[0]);
-        }
+//        String[] temp = {"note_id", "student_id", "note_content", "note_time"};
+//        List<String[]> vec = dob.getData("note", temp, null);
+//        for (int i = 0; i < vec.size(); i++) {
+//            String[] ss = vec.get(i);
+//            System.out.println(dob.getData("student", new String[]{"student_id"}, ss[1]).get(0)[0]);
+//        }
 
 //        DBUtils db = new DBUtils();
 //        String[] field = {"user_name"};
